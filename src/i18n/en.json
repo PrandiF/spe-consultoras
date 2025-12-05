@@ -1,0 +1,326 @@
+{
+  "menu": {
+    "nuestraEmpresa": "Our Company",
+    "inicio": "Home",
+    "servicios": "Services",
+    "valores": "Our Values",
+    "staff": "Staff",
+    "contacto": "Contact us"
+  },
+  "home": {
+    "titulo1": "Strategic ",
+    "titulo2": "Communication",
+    "descripcion": "Strategic contribution and value creation in communications, public affairs, and institutional marketing.",
+    "botones": {
+      "servicios": "Services",
+      "conoceMas": "Conocé Más"
+    }
+  },
+  "nuestraEmpresa": {
+    "home": {
+      "titulo1": "Conocé",
+      "titulo2": "SpE Consultores"
+    },
+    "titulo1": "About",
+    "titulo2": "Us",
+    "text1": "At our consultancy, we combine <b>experience, strategy, and commitment</b> to build strong relationships between brands, the media, and society.",
+    "text2": "We support companies and institutions in projects to strengthen corporate identity in order to improve the company's overall positioning and consolidate its presence in the market.",
+    "slides": [
+      {
+        "text": "Formed by a team of professionals with proven experience and results in top-level international companies and organizations, focused on providing creative, value-added solutions tailored to each client."
+      },
+      {
+        "text": "We are a consultancy specialized in strategic communication, focused on Media Relations, Public Affairs, and Promotional Marketing."
+      },
+      {
+        "text": "Member of the Consultancy Committee of the Professional Council of Public Relations and the Association of Argentine Journalistic Entities (ADEPA)."
+      },
+      {
+        "text": "We stand out for our active involvement in the services we provide and our continuous follow-up."
+      }
+    ]
+  },
+  "trabajos": {
+    "titulo1": "Our",
+    "titulo2": "Jobs",
+    "elCronista": {
+      "titulo": "El Cronista",
+      "descripcion": "👉🏼 At SpE Consultores, we accompany some of our clients during editorial events organized by the country’s most important media outlets, strengthening their positioning and visibility. Clarín, LA NACION, Ámbito Debate, Forbes Argentina, El Cronista, and other spaces have served as stages to share ideas, leadership, and purpose.\n\nEach participation reflects a solid, coherent communication strategy aimed at building reputation.\n\n🎥 We invite you to relive some of those moments.\n\nABB Farmacity Bayer Criteria Camuzzi Stellantis\n\n#StrategicCommunication #PR #Media #Reputation",
+      "fecha": "4 weeks",
+      "url": "https://www.linkedin.com/posts/spe-consultores_comunicaciaejnestrataezgica-pr-medios-activity-7389679941321113600-ka1H/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "elecciones2025": {
+      "titulo": "Elecciones Legislativas Nacionales 2025",
+      "descripcion": "🇦🇷 Elections 2025: key support and new challenges for the administration \n\nThe results redefined the national political balance and marked a turning point: La Libertad Avanza obtained 40.6% nationwide, achieving strong legislative growth and consolidating its political weight. \n\nAt SpE Consultores, we analyzed in detail how power is being reconfigured in Congress and what scenarios this new landscape opens for the coming months. \n\n📊 Key points of the new scenario: \n\n✔️ The ruling party will gain access to 93 of its own deputies and more than 20 PRO allies, placing it just a few votes away from quorum. \n✔️ In the Senate, it triples its representation, going from 6 to 20 seats and retaining 6 of the 8 provinces renewing positions.\n✔️ Opportunities open up to move forward with the Budget and fiscal, labor, and pension reforms.\n✔️ A stage of direct dialogue with governors and macroeconomic consolidation begins.\n✔️ “Two out of three Argentines do not want to return to the past. Populism never again. We are going to push forward reforms and envision the country alongside other forces.” — highlighted the President.\n✔️ TMAP — Everything is going according to plan: the new parliamentary balance reinforces the continuity of the economic and political direction, initiating a phase where votes must turn into consensus and concrete results.\n\n📤 Access the full report and discover how the outcome redefines the legislative agenda, the economy, and the power strategy for the upcoming months.\n#Elections2025 #PoliticalAnalysis #ElectoralScenario #Governability #Economy #SPEConsultores #PoliticalIntelligence #ElectoralTrends",
+      "fecha": "1 month",
+      "url": "https://www.linkedin.com/posts/spe-consultores_elecciones2025-anaerlisispolaedtico-escenarioelectoral-activity-7388581270802329600-yk3c/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "stellantis": {
+      "titulo": "Stellantis",
+      "descripcion": "🚗🇦🇷Stellantis anunció el inicio de producción de la nueva RAM Dakota en su planta de Ferreyra, marcando un hito para la industria automotriz nacional: es la primera vez que se fabrica un modelo RAM en Argentina.\n\n🧠Desde SpE Consultores estuvimos presentes en este importante anuncio, que no solo implica una inversión de U$S 385 millones y la creación de 1.800 empleos, sino también una apuesta concreta por la producción local, la exportación y el desarrollo de una industria más competitiva e inclusiva.\n\n🔧La Dakota se suma al portafolio de vehículos producidos localmente por Stellantis, junto con la Fiat Titano y el Cronos, consolidando a Córdoba como un polo estratégico en la región.\n\n#SpEConsultores #Stellantis #RAMDakota #IndustriaArgentina #ProducciónLocal #DesarrolloIndustrial #Automotriz #Córdoba",
+      "fecha": "1 month",
+      "url": "https://www.linkedin.com/posts/spe-consultores_speconsultores-stellantis-ramdakota-activity-7383876064609218560-sxCS/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "jornadaDialogo": {
+      "titulo": "Jornada de dialogo",
+      "descripcion": "𝗡𝗲𝘄 𝗽𝘂𝗯𝗹𝗶𝗰-𝗽𝗿𝗶𝘃𝗮𝘁𝗲 𝗱𝗶𝗮𝗹𝗼𝗴𝘂𝗲 𝘀𝗲𝘀𝘀𝗶𝗼𝗻\n\nTogether with Revista Parlamentario, we organized a new meeting for conversation and dialogue, this time focused on the “2025 Political Agenda in Oil & Gas and Mining.” In this space, key figures from the hashtag#Congress shared their vision on the topics that will shape next year’s agenda.\n\nParticipants included: National Deputies Martín Maquieyra and Walberto Allende; Mendoza’s Director of Mining, Jerónimo Shantal Morsucci; and Manuel Puelles, Corporate Manager at Banco Hipotecario.\n\n📽️ Here is a summary of the session",
+      "fecha": "2 months",
+      "url": "https://www.linkedin.com/posts/spe-consultores_congreso-activity-7376715479001948160-V3ax/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "theFoodMarket": {
+      "titulo": "The Food Market",
+      "descripcion": "✨ Ten years ago, The Food Market was born with a purpose: to transform the way we consume. Today, it celebrates its first decade as a certified B Corporation.\n\nThis recognition is more than just a seal: it is proof that businesses can grow while caring for people and the planet.\n\nAs part of the Farmacity ecosystem, The Food Market strengthens its commitment to sustainability and innovation.\n\nAt SPE Consultores, we are proud to have accompanied the brand on this journey, contributing our expertise to achieve a positive and sustainable impact together.\n\n#PurposeDrivenCompanies #BCorporation #Sustainability #TheFoodMarket",
+      "fecha": "1 month",
+      "url": "https://www.linkedin.com/posts/spe-consultores_empresasconpropaejsito-empresab-sustentabilidad-activity-7381330708507754497-aMFu/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "institutoDelGasYPetroleo": {
+      "titulo": "Instituto Argentino del Petróleo y del Gas",
+      "descripcion": "⚡🔧 SpE Consultores was present at AOG 2025, organized by the Argentine Institute of Oil and Gas at La Rural.\n\nAn event that brought together the main leaders of the energy sector and allowed us to discuss the present and future of the oil and gas industry in Argentina.\n\nDuring the expo, we shared experiences with colleagues, explored innovation projects, and learned about new technologies that are shaping the energy transition agenda. 🌍💡\n\nThese spaces are key to strengthening relationships, generating new opportunities, and continuing to build a more competitive and sustainable industry.\n\n#OilAndGasArgentina #IAPG #EnergyTransition #Energy #SpEConsultores #Innovation #Industry",
+      "fecha": "2 months",
+      "url": "https://www.linkedin.com/posts/spe-consultores_oilandgasargentina-iapg-transiciaejnenergaeztica-activity-7371935347678625792-VS5K/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "morbidelli": {
+      "titulo": "Morbidelli",
+      "descripcion": "🏍️💨 SpE didn’t want to miss the launch of Morbidelli’s new models! 🔥\n\nThe iconic Italian brand showcased at the Óscar and Juan Gálvez Racetrack four motorcycles designed to conquer every road — from the highway to the city.\n\nWe celebrate these events that bring us closer to the community and allow us to share our passion for two wheels.\n\nThank you to everyone who was part of this unforgettable day! 💥\n\n#Morbidelli #ItalianMotorcycles #BeyondTheRide #GrupoLaEmilia #SpEConsultores",
+      "fecha": "4 months",
+      "url": "https://www.linkedin.com/posts/spe-consultores_morbidelli-italianmotorcycles-beyondtheride-activity-7351671500111855619-9Cj_/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "greenhushing": {
+      "titulo": "greenhushing",
+      "descripcion": "🌱 𝙂𝙧𝙚𝙚𝙣𝙝𝙪𝙨𝙝𝙞𝙣𝙜 𝙞𝙨 𝙤𝙣 𝙩𝙝𝙚 𝙧𝙞𝙨𝙚: many companies adopt ESG practices… but choose not to talk about them 😶\n\nA report by 𝗦𝗼𝘂𝘁𝗵 𝗣𝗼𝗹𝗲 shows that 58% of companies avoid communicating their climate actions. Why? Fear of criticism, sanctions, or political backlash.\n\n📉 ESG funds are experiencing record withdrawals, and the term has virtually disappeared from corporate language. In 🇦🇷 the silence is also evident: some companies prefer to manage everything behind closed doors, while others continue to bet on transparent communication.\n\n👉 The key? 𝘊𝘢𝘭𝘪𝘣𝘳𝘢𝘵𝘦𝘥 𝘵𝘳𝘢𝘯𝘴𝘱𝘢𝘳𝘦𝘯𝘤𝘺, regional segmentation, and stronger traceability.\n\nWant the report or to rethink your ESG strategy in this context? Write to us! 💬\n\nReport prepared by: Enzo Leonardo Potes and Gonzalo Fernando Díaz\n\n#Greenhushing #ESG #Sustainability #ImpactCommunication #Agenda2025 #ClimateChange #Reputation #Argentina",
+      "fecha": "4 months",
+      "url": "https://www.linkedin.com/posts/spe-consultores_greenhushing-esg-sustentabilidad-activity-7346619051894366209-0OuN/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "logica": {
+      "titulo": "Lógica",
+      "descripcion": "We congratulate Lógica for winning in the 𝗣𝘂𝗯𝗹𝗶𝗰 𝗔𝗳𝗳𝗮𝗶𝗿𝘀 & 𝗚𝗼𝘃𝗲𝗿𝗻𝗺𝗲𝗻𝘁 𝗥𝗲𝗹𝗮𝘁𝗶𝗼𝗻𝘀 category at the 5th edition of the Dircoms Awards for its campaign Fiscal transparency, a way out of Argentina’s economic tragedy 👏👏⁣⁣\n\n𝗟𝗼́𝗴𝗶𝗰𝗮 is a nonprofit civil association primarily dedicated to raising fiscal awareness across all sectors and social levels.⁣\n\nSince 2023, at 𝗦𝗽𝗘 𝗖𝗼𝗻𝘀𝘂𝗹𝘁𝗼𝗿𝗲𝘀 we are proud to support Lógica in the strategy and management of its positioning and communication.\n\n#Lógica #Dircoms #Awards #PublicAffairs",
+      "fecha": "5 months",
+      "url": "https://www.linkedin.com/posts/spe-consultores_laejgica-dircoms-premios-activity-7339009114238246912-909k/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "expoAgro2025": {
+      "titulo": "ExpoAgro 2025",
+      "descripcion": "🌽🚜 This is how we experienced hashtag#Expoagro2025! 🚀🎥⁣\n\nFrom March 11 to 14, Expoagro was the meeting point for the agricultural sector, and SpE Consultores was there sharing innovation, technology, and great moments with colleagues and partners in the industry. 📍🌱⁣\n\nHere’s a video showing a bit of what our experience was like. Don’t miss it! 🎬✨⁣\n\n#Expoagro2025 #team #agriculture",
+      "fecha": "8 meses",
+      "url": "https://www.linkedin.com/posts/spe-consultores_expoagro2025-expoagro2025-equipo-activity-7307391622386782208-Fl4C/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    }
+  },
+  "valores": {
+    "titulo1": "Our",
+    "titulo2": "Values",
+    "experiencia": {
+      "titulo": "Experience",
+      "descripcion": " experience."
+    },
+    "profesionalismo": {
+      "titulo": "Professionalism",
+      "descripcion": " in project development."
+    },
+    "creatividad": {
+      "titulo": "Creativity",
+      "descripcion": " in proposals."
+    },
+    "flexibilidad": {
+      "titulo": "Flexibility",
+      "descripcion": " and continuous improvement in communication processes."
+    },
+    "etica": {
+      "titulo": "Ethics",
+      "descripcion": " in the implementation of actions."
+    },
+    "confidencialidad": {
+      "titulo": "Confidentiality",
+      "descripcion": "Absolute ."
+    },
+    "compromiso": {
+      "titulo": "Commitment",
+      "descripcion": " to understanding and integrating into our clients’ business."
+    },
+    "consistencia": {
+      "titulo": "Consistency",
+      "descripcion": " with the defined strategy for each project."
+    },
+    "estadisticas": {
+      "años": "years in the industry",
+      "profesionales": "professionals",
+      "eventos": "events produced",
+      "clientes": "major clients"
+    }
+  },
+  "servicios": {
+    "titulo": "Our",
+    "titulo2": "Services",
+    "ComunicacionEstrategica": {
+      "titulo": "Strategic Communication",
+      "descripcion1": "Establishment of solid and transparent connections with press professionals and media outlets.",
+      "descripcion2": "Efficient crisis management.",
+      "descripcion3": "Media Training."
+    },
+    "MarketingInstitucional": {
+      "titulo": "Institutional Marketing",
+      "descripcion1": "Comprehensive promotional campaigns and tactical marketing.",
+      "descripcion2": "Seminars, congresses, inaugurations, and press conferences.",
+      "descripcion3": "Product launches.",
+      "descripcion4": "Full creation and production of events.",
+      "descripcion5": "Institutional videos."
+    },
+    "AsuntosPublicos": {
+      "titulo": "Public Affairs",
+      "descripcion1": "Monitoring and early warning of sensitive issues.",
+      "descripcion2": "Parliamentary monitoring.",
+      "descripcion3": "Risk detection.",
+      "descripcion4": "On-demand reports.",
+      "descripcion5": "Mapping of areas of interest.",
+      "descripcion6": "Corporate and executive positioning.",
+      "descripcion7": "Relationship building."
+    },
+    "EstrategiasDigitales": {
+      "titulo": "Digital Strategies",
+      "descripcion1": "Web design and development.",
+      "descripcion2": "Planning and purchasing of online media.",
+      "descripcion3": "Creative development.",
+      "descripcion4": "Branding campaigns.",
+      "descripcion5": "Social media actions."
+    },
+    "ImagenCorporativa": {
+      "titulo": "Corporate Image",
+      "descripcion1": "Diagnosis.",
+      "descripcion2": "Strategy.",
+      "descripcion3": "Corporate image objectives.",
+      "descripcion4": "Attributes.",
+      "descripcion5": "Stakeholder identification."
+    },
+    "CapacitacionDeVoceros": {
+      "titulo": "Spokesperson Training",
+      "descripcion1": "Identifying weaknesses and opportunities.",
+      "descripcion2": "Narrative adjustment.",
+      "descripcion3": "Theoretical and practical modules.",
+      "descripcion4": "Effective Communications.",
+      "descripcion5": "Public speaking."
+    }
+  },
+  "rubros": {
+    "agropecuario": "Agribusiness",
+    "alimentacion": "Food",
+    "automotriz": "Automotive",
+    "electrodomesticos": "Home Appliances",
+    "energia": "Energy",
+    "entretenimiento": "Entertainment",
+    "financiero": "Financial",
+    "mediosDeComunicacion": "Media",
+    "petroleoyGas": "Oil & Gas",
+    "farmaceutico": "Pharmaceutical",
+    "serviciosPublicos": "Public Services",
+    "tecnologia": "Technology"
+  },
+  "impulsamosTuCom": {
+    "titulo1": "We Boost Your ",
+    "titulo2": "Communication",
+    "text": "We provide experience, strategy, and commitment to strengthen the relationship between your organization, the media, and society. Our team offers close and continuous support for every project.",
+    "boton": "Contact Us"
+  },
+
+  "staff": {
+    "titulo": "Our",
+    "titulo2": "Team",
+    "FabianFalco": {
+      "nombre": "Fabián Falco",
+      "cargo": "Managing Partner",
+      "bio": "Developed comprehensive communication and relationship campaigns for politicians, media outlets, institutions, and companies. Served as Chairman of the Board of El Cronista Comercial S.A. for two years. For over eight years, he was Director of Communication and External Relations at Repsol YPF for Argentina, Brazil, and Bolivia. Between 1993 and 2001, he was Director of External Communications and Marketing at Aguas Argentinas (Suez Group). In 2007, he received the Konex Platinum Award as the best Institutional Communication figure of the decade."
+    },
+    "GenovevaSposetti": {
+      "nombre": "Genoveva Sposetti",
+      "cargo": "Director",
+      "bio": "Bachelor’s Degree in Public Relations (UADE) and Postgraduate in Corporate Affairs Management (UCA). Worked at consulting firms MDG Comunicación e Imagen and Mauro y Estomba.",
+      "linkedin": "https://www.linkedin.com/in/genoveva-sposetti-a896a623/?originalSubdomain=ar"
+    },
+    "SusanaMaggiorini": {
+      "nombre": "Susana Maggiorini",
+      "cargo": "Account Director",
+      "bio": "Bachelor’s Degree in Public and Institutional Relations and Postgraduate in Corporate Affairs Management (UCA). Formerly worked at Consultores del Plata.",
+      "linkedin": "https://www.linkedin.com/in/susanamaggiorini/?originalSubdomain=ar"
+    },
+    "NicolasCastano": {
+      "nombre": "Nicolás Castaño",
+      "cargo": "General Coordinator",
+      "bio": "Bachelor’s Degree in Public Relations (UADE), with a specialization in International Relations and Government. Postgraduate in Corporate Affairs Management (UCA). Over 15 years of experience in communication and corporate affairs.",
+      "linkedin": "https://www.linkedin.com/in/nicolascasta%C3%B1o/?originalSubdomain=ar"
+    },
+    "DamianJuarez": {
+      "nombre": "Damián Juárez",
+      "cargo": "Project Associate Manager",
+      "bio": "Professor, journalist, and political columnist. Co-director of the radio show 'Huevos Revueltos' (Radio con Vos). Political editor at Crónica newspaper. Former Editor-in-Chief at Télam and producer at 'A Dos Voces' (TN).",
+      "linkedin": "https://www.linkedin.com/in/dami%C3%A1n-ju%C3%A1rez-0a5465111/?originalSubdomain=ar"
+    },
+    "GonzaloDiaz": {
+      "nombre": "Gonzalo Díaz",
+      "cargo": "Public Affairs Leader",
+      "bio": "Lawyer (UNR), specialized in Labor and Parliamentary Law. Extensive experience in public and parliamentary affairs across both public and private sectors.",
+      "linkedin": "https://www.linkedin.com/in/gonzalo-fernando-d%C3%ADaz-890972156/?originalSubdomain=ar"
+    },
+    "EvelynVallejos": {
+      "nombre": "Evelyn Vallejos",
+      "cargo": "Health Leader & Account Executive",
+      "bio": "Bachelor’s Degree in Communication Sciences. Internal Communication Management (Univ. Siglo 21). Specialist in Scientific and Health Communication.",
+      "linkedin": "https://www.linkedin.com/in/evelyn-r-vallejos-3ab4aa173/"
+    },
+    "EnzoPotesPouyanne": {
+      "nombre": "Enzo Potes Pouyanne",
+      "cargo": "Account Executive",
+      "bio": "Bachelor’s Degree in Public and Institutional Relations (USAL). Master’s in Political Communication and Electoral Campaigns (UCM, Madrid).",
+      "linkedin": "https://www.linkedin.com/in/enzo-leonardo-potes-a1497776/"
+    },
+    "JoaquinVilaplana": {
+      "nombre": "Joaquín Vilaplana",
+      "cargo": "Account Executive",
+      "bio": "Bachelor’s Degree in Social Communication (UBA) with experience in writing, editing, and coordinating internal communication materials.",
+      "linkedin": "https://www.linkedin.com/in/joaqu%C3%ADn-vilaplana-4502b4192/"
+    },
+    "ArianaLopezPasquare": {
+      "nombre": "Ariana López Pasquaré",
+      "cargo": "Account Executive",
+      "bio": "Bachelor’s Degree in Communication Sciences (UADE) with experience in writing (Clarín) and political community management.",
+      "linkedin": "https://www.linkedin.com/in/ariana-l%C3%B3pez-pasquar%C3%A9-0612a4230/?originalSubdomain=ar"
+    },
+    "EugeniaSilvestre": {
+      "nombre": "Eugenia Silvestre",
+      "cargo": "Account Executive",
+      "bio": "Bachelor’s Degree in Public and Institutional Relations (UADE) with previous experience in consulting as an account assistant.",
+      "linkedin": "https://www.linkedin.com/in/eugenia-silvestre-20169a158/?originalSubdomain=ar"
+    },
+    "FaustoMendozaJoy": {
+      "nombre": "Fausto Mendoza Joy",
+      "cargo": "Account Executive",
+      "bio": "Journalist (Tea & Deportea) and Bachelor’s Degree in Communication Sciences (UADE), with experience across various mass media.",
+      "linkedin": "https://www.linkedin.com/in/fausto-mendoza-joy-9649791aa/"
+    },
+    "FlorenciaTaranto": {
+      "nombre": "Florencia Taranto",
+      "puesto": "Account Executive",
+      "bio": "",
+      "linkedin": "https://www.linkedin.com/in/florencia-taranto/"
+    }
+  },
+  "contactate": {
+    "titulo": "Contact",
+    "titulo2": " with Us"
+  },
+
+  "contacto": {
+    "titulo": "Contact",
+    "email": "info@speconsultores.com.ar",
+    "telefono": "+54 11 4706-2128",
+    "direccion": "Migueletes 1646, Buenos Aires, Argentina",
+    "form": {
+      "nombre": "Name and/or Company*",
+      "telefono": "Phone*",
+      "email": "Email*",
+      "comentario": "Leave your comment...",
+      "enviar": "Send"
+    }
+  },
+
+  "footer": {
+    "texto1": "Strategic contribution and value creation in communications, public affairs, and institutional marketing.",
+    "redesSociales": "Social Media"
+  }
+}

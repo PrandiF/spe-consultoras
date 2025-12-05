@@ -1,0 +1,330 @@
+{
+  "menu": {
+    "nuestraEmpresa": "Nuestra Empresa",
+    "inicio": "Inicio",
+    "servicios": "Servicios",
+    "valores": "Nuestros Valores",
+    "staff": "Equipo",
+    "contacto": "Contactanos"
+  },
+  "home": {
+    "titulo1": "Comunicación ",
+    "titulo2": "Estratégica",
+    "descripcion": "Aporte estratégico y creación de valor en comunicación, asuntos públicos y marketing institucional.",
+    "botones": {
+      "servicios": "Servicios",
+      "conoceMas": "Conocé Más"
+    }
+  },
+
+  "nuestraEmpresa": {
+    "home": {
+      "titulo1": "Conocé",
+      "titulo2": "SpE Consultores"
+    },
+    "titulo1": "Nosotros",
+    "titulo2": "Empresa",
+    "text1": "En nuestra consultora combinamos <b>experiencia, estrategia y compromiso</b> para construir vínculos sólidos entre las marcas, los medios y la sociedad.",
+    "text2": "Acompañamos a empresas e instituciones en proyectos para fortalecer la identidad corporativa para mejorar el posicionamiento general de la compañía y consolidar su presencia en el mercado.",
+    "slides": [
+      {
+        "text": "Formado por un equipo de profesionales con experiencia comprobada y resultados en empresas y organizaciones internacionales de primer nivel, enfocados en brindar soluciones creativas y de valor agregado adaptadas a cada cliente."
+      },
+      {
+        "text": "Somos una consultora especializada en comunicación estratégica, enfocada en Relaciones con los Medios, Asuntos Públicos y Marketing Promocional."
+      },
+      {
+        "text": "Miembro del Comité de Consultoras del Consejo Profesional de Relaciones Públicas y de la Asociación de Entidades Periodísticas Argentinas (ADEPA)."
+      },
+      {
+        "text": "Nos destacamos por nuestra participación activa en los servicios y el seguimiento constante."
+      }
+    ]
+  },
+  "trabajos": {
+    "titulo1": "Nuestros",
+    "titulo2": "Trabajos",
+    "elCronista": {
+      "titulo": "El Cronista",
+      "descripcion": "👉🏼 En SpE Consultores acompañamos a algunos de nuestros clientes durante los eventos editoriales organizados por los medios más importantes del país, fortaleciendo su posicionamiento y visibilidad. Clarín, LA NACION, Ambito Debate, Forbes Argentina , El Cronista y otros espacios fueron escenario para compartir ideas, liderazgo y propósito.\n\nCada participación refleja una estrategia de comunicación sólida, coherente y orientada a construir reputación.\n\n🎥 Te invitamos a revivir algunos de esos momentos.\n\nABB Farmacity Bayer Criteria Camuzzi Stellantis\n\n#ComunicaciónEstratégica #PR #Medios #Reputación",
+      "fecha": "4 semanas",
+      "url": "https://www.linkedin.com/posts/spe-consultores_comunicaciaejnestrataezgica-pr-medios-activity-7389679941321113600-ka1H/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "elecciones2025": {
+      "titulo": "Elecciones Legislativas Nacionales 2025",
+      "descripcion": "🇦🇷 Elecciones 2025: un respaldo clave y nuevos desafíos para la gestión \n\nLos resultados redefinieron el equilibrio político nacional y marcaron un punto de inflexión: La Libertad Avanza obtuvo el 40,6 % a nivel nacional, logrando un fuerte crecimiento legislativo y consolidando su peso político. \n\nEn SpE Consultores analizamos en detalle cómo se reconfigura el poder en el Congreso y qué escenarios abre este nuevo mapa para los próximos meses. \n\n📊 Claves del nuevo escenario: \n\n✔️ El oficialismo accederá a 93 diputados propios y más de 20 aliados del PRO, quedando a pocos votos del quórum. \n✔️ En el Senado, triplica su representación, pasando de 6 a 20 bancas y reteniendo 6 de las 8 provincias que renovaban escaños.\n✔️ Se abren oportunidades para avanzar en Presupuesto y reformas fiscal, laboral y previsional.\n✔️ Comienza una etapa de diálogo directo con gobernadores y consolidación macroeconómica.\n✔️ “Dos de cada tres argentinos no quieren volver al pasado. Populismo nunca más. Vamos a impulsar reformas y pensar el país con otras fuerzas.” — destacó el Presidente.\n✔️ TMAP — Todo marcha de acuerdo al plan: el nuevo equilibrio parlamentario refuerza la continuidad del rumbo económico y político, dando inicio a una fase donde los votos deberán transformarse en consensos y resultados concretos.\n\n📤 Accedé al informe completo y descubrí cómo el resultado redefine la agenda legislativa, la economía y la estrategia de poder de cara a los próximos meses.\n#Elecciones2025 #AnálisisPolítico #EscenarioElectoral #Gobernabilidad #Economía #SPEConsultores #InteligenciaPolítica #TendenciasElectorales",
+      "fecha": "1 mes",
+      "url": "https://www.linkedin.com/posts/spe-consultores_elecciones2025-anaerlisispolaedtico-escenarioelectoral-activity-7388581270802329600-yk3c/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "stellantis": {
+      "titulo": "Stellantis",
+      "descripcion": "🚗🇦🇷Stellantis anunció el inicio de producción de la nueva RAM Dakota en su planta de Ferreyra, marcando un hito para la industria automotriz nacional: es la primera vez que se fabrica un modelo RAM en Argentina.\n\n🧠Desde SpE Consultores estuvimos presentes en este importante anuncio, que no solo implica una inversión de U$S 385 millones y la creación de 1.800 empleos, sino también una apuesta concreta por la producción local, la exportación y el desarrollo de una industria más competitiva e inclusiva.\n\n🔧La Dakota se suma al portafolio de vehículos producidos localmente por Stellantis, junto con la Fiat Titano y el Cronos, consolidando a Córdoba como un polo estratégico en la región.\n\n#SpEConsultores #Stellantis #RAMDakota #IndustriaArgentina #ProducciónLocal #DesarrolloIndustrial #Automotriz #Córdoba",
+      "fecha": "1 mes",
+      "url": "https://www.linkedin.com/posts/spe-consultores_speconsultores-stellantis-ramdakota-activity-7383876064609218560-sxCS/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "jornadaDialogo": {
+      "titulo": "Jornada de dialogo",
+      "descripcion": "𝗡𝘂𝗲𝘃𝗮 𝗷𝗼𝗿𝗻𝗮𝗱𝗮 𝗱𝗲 𝗱𝗶𝗮́𝗹𝗼𝗴𝗼 𝗽𝘂́𝗯𝗹𝗶𝗰𝗼-𝗽𝗿𝗶𝘃𝗮𝗱𝗮\n\nJunto a Revista Parlamentario organizamos un nuevo encuentro de conversación y diálogo, esta vez con foco en la 'Agenda Política en Oil&Gas y Minería 2025'. En este espacio referentes del hashtag#Congreso compartieron su visión sobre los temas que marcarán la agenda del próximo año.\n\nEstuvieron presentes: los diputados nacionales Martin Maquieyra y Walberto Allende; el Director de Minería de Mendoza, Jerónimo Shantal Morsucci; y Manuel Puelles, Manager Corporate del Banco Hipotecario.\n\n📽️ Te compartimos un resumen de la jornada",
+      "fecha": "2 meses",
+      "url": "https://www.linkedin.com/posts/spe-consultores_congreso-activity-7376715479001948160-V3ax/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "theFoodMarket": {
+      "titulo": "The Food Market",
+      "descripcion": "✨ Hace 10 años, The Food Market nació con un propósito: transformar la forma en que consumimos. Hoy celebra su primera década como Empresa B certificada.\n\nEste reconocimiento no es solo un sello: es la prueba de que los negocios pueden crecer cuidando a las personas y al planeta.\n\nComo parte del ecosistema de Farmacity, The Food Market consolida su compromiso con la sustentabilidad y la innovación.\n\nEn SPE Consultores nos enorgullece haber acompañado a la marca en este camino, sumando nuestra experiencia para lograr juntos un impacto positivo y sostenible.\n\n#EmpresasConPropósito #EmpresaB #Sustentabilidad #TheFoodMarket",
+      "fecha": "1 mes",
+      "url": "https://www.linkedin.com/posts/spe-consultores_empresasconpropaejsito-empresab-sustentabilidad-activity-7381330708507754497-aMFu/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "institutoDelGasYPetroleo": {
+      "titulo": "Instituto Argentino del Petróleo y del Gas",
+      "descripcion": "⚡🔧 SpE Consultores estuvo presente en la AOG 2025, organizada por el Instituto Argentino del Petróleo y del Gas en La Rural.\n\nUn encuentro que reunió a los principales referentes del sector energético y que nos permitió dialogar sobre el presente y futuro de la industria del petróleo y el gas en Argentina.\n\nDurante la feria compartimos experiencias con colegas, exploramos proyectos de innovación y conocimos nuevas tecnologías que están marcando la agenda de la transición energética. 🌍💡\n\nEstos espacios son clave para fortalecer vínculos, generar nuevas oportunidades y seguir construyendo una industria más competitiva y sustentable.\n\n#OilAndGasArgentina #IAPG #TransiciónEnergética #Energía #SpEConsultores #Innovación #Industria",
+      "fecha": "2 meses",
+      "url": "https://www.linkedin.com/posts/spe-consultores_oilandgasargentina-iapg-transiciaejnenergaeztica-activity-7371935347678625792-VS5K/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "morbidelli": {
+      "titulo": "Morbidelli",
+      "descripcion": "🏍️💨 ¡SpE no se quiso perder la presentación de los nuevos modelos de Morbidelli! 🔥\n\nLa icónica marca italiana desplegó en el Autódromo Óscar y Juan Gálvez cuatro motos pensadas para conquistar todos los caminos, desde la ruta hasta la ciudad.\n\nCelebramos estos encuentros que nos acercan a la comunidad y nos permiten compartir la pasión sobre las dos ruedas.\n\n¡Gracias a todos los que fueron parte de esta jornada inolvidable! 💥\n\n#Morbidelli #ItalianMotorcycles #BeyondTheRide #GrupoLaEmilia #SpEConsultores",
+      "fecha": "4 meses",
+      "url": "https://www.linkedin.com/posts/spe-consultores_morbidelli-italianmotorcycles-beyondtheride-activity-7351671500111855619-9Cj_/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "greenhushing": {
+      "titulo": "greenhushing",
+      "descripcion": "🌱 𝙀𝙡 𝙜𝙧𝙚𝙚𝙣𝙝𝙪𝙨𝙝𝙞𝙣𝙜 𝙖𝙫𝙖𝙣𝙯𝙖: muchas empresas aplican prácticas ESG… pero eligen no contarlas 😶\n\nUn informe de 𝗦𝗼𝘂𝘁𝗵 𝗣𝗼𝗹𝗲 muestra que 58% de las compañías evita comunicar sus acciones climáticas. ¿Por qué? Miedo a críticas, sanciones o backlash político.\n\n📉 Fondos ESG sufren retiros récord y el término casi desaparece del lenguaje corporativo. En 🇦🇷 también se nota el silencio: algunas empresas prefieren gestionar puertas adentro, mientras que otras siguen apostando por una comunicación transparente.\n\n👉 ¿La clave? 𝘛𝘳𝘢𝘯𝘴𝑝𝘢𝘳𝘦𝘯𝘤𝘪𝘢 𝘤𝘢𝘭𝘪𝘣𝘳𝘢𝘥𝘢, segmentar por región y fortalecer la trazabilidad.\n\n ¿Querés el informe o repensar tu estrategia ESG en este contexto? ¡Escribinos! 💬\n\nInforme realizado por: Enzo Leonardo Potes y Gonzalo Fernando Díaz\n\n#Greenhushing #ESG #Sustentabilidad #ComunicaciónConImpacto #Agenda2025 #CambioClimático #Reputación #Argentina",
+      "fecha": "4 meses",
+      "url": "https://www.linkedin.com/posts/spe-consultores_greenhushing-esg-sustentabilidad-activity-7346619051894366209-0OuN/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "logica": {
+      "titulo": "Lógica",
+      "descripcion": "Felicitamos a Lógica por ganar en la categoría 𝗔𝘀𝘂𝗻𝘁𝗼𝘀 𝗣𝘂́𝗯𝗹𝗶𝗰𝗼𝘀 & 𝗥𝗲𝗹𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗚𝘂𝗯𝗲𝗿𝗻𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝗲𝘀 en la 5ta edición de los Premios Dircoms por su campaña 𝘛𝘳𝘢𝘯𝘴𝑝𝘢𝘳𝘦𝘯𝘤𝘪𝘢 𝘧𝘪𝘴𝘤𝘢𝘭, 𝘶𝘯𝘢 𝘴𝘢𝘭𝘪𝘥𝘢 𝑝𝘢𝘳𝘢 𝘭𝘢 𝘵𝘳𝘢𝘨𝘦𝘥𝘪𝘢 𝘦𝘤𝘰𝘯𝘰́𝘮𝘪𝘤𝘢 𝘢𝘳𝘨𝘦𝘯𝘵𝘪𝘯𝘢 👏👏⁣⁣\n\n𝗟𝗼́𝗴𝗶𝗰𝗮 es una asociación civil sin fines de lucro dedicada principalmente a crear conciencia fiscal en todos los sectores y niveles sociales.⁣\n\nDesde 2023, en 𝗦𝗽𝗘 𝗖𝗼𝗻𝘀𝘂𝗹𝘁𝗼𝗿𝗲𝘀 tenemos el orgullo de acompañar a Lógica en la estrategia y gestión de su posicionamiento y comunicación.\n\n#Lógica #Dircoms #Premios #AsuntosPublicos",
+      "fecha": "5 meses",
+      "url": "https://www.linkedin.com/posts/spe-consultores_laejgica-dircoms-premios-activity-7339009114238246912-909k/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    },
+    "expoAgro2025": {
+      "titulo": "ExpoAgro 2025",
+      "descripcion": "🌽🚜 ¡Así vivimos hashtag#Expoagro2025! 🚀🎥⁣\n\nDel 11 al 14 de marzo, Expoagro fue el punto de encuentro del agro y SpE Consultores estuvo presente compartiendo innovación, tecnología y grandes momentos con colegas y aliados del sector. 📍🌱⁣\n\nTe dejamos este video de un poco lo que fue nuestra experiencia. ¡No te lo pierdas! 🎬✨⁣\n\n#Expoagro2025 #equipo #agro",
+      "fecha": "8 meses",
+      "url": "https://www.linkedin.com/posts/spe-consultores_expoagro2025-expoagro2025-equipo-activity-7307391622386782208-Fl4C/?utm_source=share&utm_medium=member_ios&rcm=ACoAAC1AEHwBK1qXyF8LbhJBoYFc4MihatiMFY8"
+    }
+  },
+  "valores": {
+    "titulo1": "Nuestros",
+    "titulo2": "Valores",
+    "experiencia": {
+      "titulo": "Experiencia",
+      "descripcion": " comprobada"
+    },
+    "profesionalismo": {
+      "titulo": "Profesionalismo",
+      "descripcion": " en el desarrollo de proyectos"
+    },
+    "creatividad": {
+      "titulo": "Creatividad",
+      "descripcion": " en las propuestas"
+    },
+    "flexibilidad": {
+      "titulo": "Flexibilidad",
+      "descripcion": " y mejora continua en los procesos de comunicación"
+    },
+    "etica": {
+      "titulo": "Ética",
+      "descripcion": " en la implementación de las acciones"
+    },
+    "confidencialidad": {
+      "titulo": "Confidencialidad",
+      "descripcion": " absoluta"
+    },
+    "compromiso": {
+      "titulo": "Compromiso",
+      "descripcion": " con la comprensión e integración en el negocio de nuestros clientes"
+    },
+    "consistencia": {
+      "titulo": "Consistencia",
+      "descripcion": " con la estrategia definida para cada proyecto"
+    },
+    "estadisticas": {
+      "años": "años en el rubro",
+      "profesionales": "profesionales",
+      "eventos": "eventos producidos",
+      "clientes": "grandes clientes"
+    }
+  },
+
+  "servicios": {
+    "titulo": "Nuestros",
+    "titulo2": "Servicios",
+    "ComunicacionEstrategica": {
+      "titulo": "Comunicación Estratégica",
+      "descripcion1": "Establecimiento de conexiones sólidas y transparentes con profesionales de la prensa y medios de comunicación",
+      "descripcion2": "Gestión eficiente de situaciones de crisis",
+      "descripcion3": "Media Training"
+    },
+    "MarketingInstitucional": {
+      "titulo": "Marketing Institucional",
+      "descripcion1": "Campañas integrales de promoción y marketing táctico",
+      "descripcion2": "Seminarios, congresos, inauguraciones y conferencias de prensa",
+      "descripcion3": "Lanzamientos",
+      "descripcion4": "Creación y producción integral de eventos",
+      "descripcion5": "Videos institucionales"
+    },
+    "AsuntosPublicos": {
+      "titulo": "Asuntos Públicos",
+      "descripcion1": "Seguimiento y alerta temprana de temas sensibles",
+      "descripcion2": "Monitoreo parlamentario",
+      "descripcion3": "Detección de riesgos",
+      "descripcion4": "Reportes on demand",
+      "descripcion5": "Mapeos de espacios de interés",
+      "descripcion6": "Posicionamiento corporativo y de directivos",
+      "descripcion7": "Relacionamiento"
+    },
+    "EstrategiasDigitales": {
+      "titulo": "Estrategias Digitales",
+      "descripcion1": "Diseño y desarrollo web",
+      "descripcion2": "Planificación y compra de medios online",
+      "descripcion3": "Desarrollo creativo",
+      "descripcion4": "Campañas de branding",
+      "descripcion5": "Acciones en RRSS"
+    },
+    "ImagenCorporativa": {
+      "titulo": "Imagen Corporativa",
+      "descripcion1": "Diagnóstico",
+      "descripcion2": "Estrategia ",
+      "descripcion3": "Objetivos de imagen corporativa",
+      "descripcion4": "Atributos",
+      "descripcion5": "Identificación de stakeholders"
+    },
+    "CapacitacionDeVoceros": {
+      "titulo": "Capacitación de Voceros",
+      "descripcion1": "Identificar debilidades y oportunidades",
+      "descripcion2": "Ajuste de narrativas",
+      "descripcion3": "Módulos teórico y práctico",
+      "descripcion4": "Comunicaciones Eficaces",
+      "descripcion5": "Oratoria"
+    }
+  },
+  "rubros": {
+    "agropecuario": "Agropecuario",
+    "alimentacion": "Alimentación",
+    "automotriz": "Automotriz",
+    "electrodomesticos": "Electrodomésticos",
+    "energia": "Energía",
+    "entretenimiento": "Entretenimiento",
+    "financiero": "Financiero",
+    "mediosDeComunicacion": "Medios de Comunicación",
+    "petroleoyGas": "Petróleo y Gas",
+    "farmaceutico": "Farmacéutico",
+    "serviciosPublicos": "Servicios Públicos",
+    "tecnologia": "Tecnología"
+  },
+
+  "impulsamosTuCom": {
+    "titulo1": "Impulsamos tu ",
+    "titulo2": "Comunicación",
+    "text": "Aportamos experiencia, estrategia y compromiso para fortalecer la relación entre tu organización, los medios y la sociedad. Nuestro equipo acompaña de forma cercana y continua cada proyecto.",
+    "boton": "Contactanos"
+  },
+
+  "staff": {
+    "titulo": "Nuestro",
+    "titulo2": "Equipo",
+    "FabianFalco": {
+      "nombre": "Fabián Falco",
+      "puesto": "Socio Director",
+      "bio": "Desarrolló campañas integrales de comunicación y relacionamiento para políticos, medios, instituciones y empresas. Fue Presidente del Directorio de El Cronista Comercial S.A. durante dos años. Durante más de ocho años se desempeñó como Director de Comunicación y Relaciones Externas de Repsol YPF para Argentina, Brasil y Bolivia. Entre 1993 y 2001 fue Director de Comunicaciones Externas y Marketing en Aguas Argentinas (Grupo Suez). En 2007 recibió el Premio Konex de Platino como la mejor figura de Comunicación Institucional de la década."
+    },
+    "GenovevaSposetti": {
+      "nombre": "Genoveva Sposetti",
+      "puesto": "Directora",
+      "bio": "Licenciada en Relaciones Públicas (UADE) y Posgraduada en Gestión de Asuntos Corporativos (UCA). Trabajó en las consultoras MDG Comunicación e Imagen y Mauro y Estomba.",
+      "linkedin": "https://www.linkedin.com/in/genoveva-sposetti-a896a623/?originalSubdomain=ar"
+    },
+    "SusanaMaggiorini": {
+      "nombre": "Susana Maggiorini",
+      "puesto": "Directora de Cuentas",
+      "bio": "Licenciada en Relaciones Públicas e Institucionales y Posgraduada en Gestión de Asuntos Corporativos (UCA). Ex Consultores del Plata.",
+      "linkedin": "https://www.linkedin.com/in/susanamaggiorini/?originalSubdomain=ar"
+    },
+    "NicolasCastano": {
+      "nombre": "Nicolás Castaño",
+      "puesto": "Coordinador General",
+      "bio": "Licenciado en Relaciones Públicas (UADE), con especialización en Relaciones Internacionales y Gobierno. Posgraduado en Gestión de Asuntos Corporativos (UCA). Más de 15 años de experiencia en comunicación y asuntos corporativos.",
+      "linkedin": "https://www.linkedin.com/in/nicolascasta%C3%B1o/?originalSubdomain=ar"
+    },
+    "DamianJuarez": {
+      "nombre": "Damián Juárez",
+      "puesto": "Gerente Asociado de Proyectos",
+      "bio": "Profesor, periodista y columnista político. Codirector del programa radial 'Huevos Revueltos' (Radio con Vos). Editor político del diario Crónica. Ex jefe de redacción en Télam y productor en 'A Dos Voces' (TN).",
+      "linkedin": "https://www.linkedin.com/in/dami%C3%A1n-ju%C3%A1rez-0a5465111/?originalSubdomain=ar"
+    },
+    "GonzaloDiaz": {
+      "nombre": "Gonzalo Díaz",
+      "puesto": "Líder de Asuntos Públicos",
+      "bio": "Abogado (UNR), especializado en Derecho Laboral y Parlamentario. Amplia experiencia en asuntos públicos y parlamentarios en los sectores público y privado.",
+      "linkedin": "https://www.linkedin.com/in/gonzalo-fernando-d%C3%ADaz-890972156/?originalSubdomain=ar"
+    },
+    "EvelynVallejos": {
+      "nombre": "Evelyn Vallejos",
+      "puesto": "Líder en Salud y Ejecutiva de Cuentas",
+      "bio": "Licenciada en Ciencias de la Comunicación. Gestión de Comunicación Interna (Univ. Siglo 21). Especialista en Comunicación Científica y de Salud.",
+      "linkedin": "https://www.linkedin.com/in/evelyn-r-vallejos-3ab4aa173/"
+    },
+    "EnzoPotesPouyanne": {
+      "nombre": "Enzo Potes Pouyanne",
+      "puesto": "Ejecutivo de Cuentas",
+      "bio": "Licenciado en Relaciones Públicas e Institucionales (USAL). Máster en Comunicación Política y Campañas Electorales (UCM, Madrid).",
+      "linkedin": "https://www.linkedin.com/in/enzo-leonardo-potes-a1497776/"
+    },
+    "JoaquinVilaplana": {
+      "nombre": "Joaquín Vilaplana",
+      "puesto": "Ejecutivo de Cuentas",
+      "bio": "Licenciado en Comunicación Social (UBA) con experiencia en redacción, edición y coordinación de materiales de comunicación interna.",
+      "linkedin": "https://www.linkedin.com/in/joaqu%C3%ADn-vilaplana-4502b4192/"
+    },
+    "ArianaLopezPasquare": {
+      "nombre": "Ariana López Pasquaré",
+      "puesto": "Ejecutiva de Cuentas",
+      "bio": "Licenciada en Ciencias de la Comunicación (UADE) con experiencia en redacción (Clarín) y gestión de comunidades políticas.",
+      "linkedin": "https://www.linkedin.com/in/ariana-l%C3%B3pez-pasquar%C3%A9-0612a4230/?originalSubdomain=ar"
+    },
+    "EugeniaSilvestre": {
+      "nombre": "Eugenia Silvestre",
+      "puesto": "Ejecutiva de Cuentas",
+      "bio": "Licenciada en Relaciones Públicas e Institucionales (UADE) con experiencia previa en consultoría como asistente de cuentas.",
+      "linkedin": "https://www.linkedin.com/in/eugenia-silvestre-20169a158/?originalSubdomain=ar"
+    },
+    "FaustoMendozaJoy": {
+      "nombre": "Fausto Mendoza Joy",
+      "puesto": "Ejecutivo de Cuentas",
+      "bio": "Periodista (Tea & Deportea) y Licenciado en Ciencias de la Comunicación (UADE), con experiencia en diversos medios de comunicación masiva.",
+      "linkedin": "https://www.linkedin.com/in/fausto-mendoza-joy-9649791aa/"
+    },
+    "FlorenciaTaranto": {
+      "nombre": "Florencia Taranto",
+      "puesto": "Ejecutiva de Cuentas",
+      "bio": "",
+      "linkedin": "https://www.linkedin.com/in/florencia-taranto/"
+    }
+  },
+
+  "contactate": {
+    "titulo": "Contactate",
+    "titulo2": " con Nosotros"
+  },
+
+  "contacto": {
+    "titulo": "Contacto",
+    "email": "info@speconsultores.com.ar",
+    "telefono": "+54 11 4706-2128",
+    "direccion": "Migueletes 1646, Buenos Aires, Argentina",
+    "form": {
+      "nombre": "Nombre y/o Empresa*",
+      "telefono": "Teléfono*",
+      "email": "Correo electrónico*",
+      "comentario": "Dejá tu comentario...",
+      "enviar": "Enviar"
+    }
+  },
+
+  "footer": {
+    "texto1": "Aporte estratégico y creación de valor en comunicación, asuntos públicos y marketing institucional.",
+    "redesSociales": "Redes Sociales"
+  }
+}
