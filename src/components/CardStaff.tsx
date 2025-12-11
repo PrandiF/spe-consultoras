@@ -46,11 +46,17 @@ function CardStaff({
           director && "md:w-[55%] justify-center  text-center"
         } flex flex-col ${empleado && "text-center px-1"} py-12`}
       >
-        <h2 className="font-semibold md:text-lg text-xl text-[#1A56D0]">
+        <h2 className="font-semibold md:text-[22px] text-xl text-[#1A56D0]">
           {nombre}
         </h2>
-        <p className="text-[#FF7C28] md:text-base text-lg">{puesto}</p>
-        {socio && <p className="md:flex hidden text-[#1A56D0]">{bio}</p>}
+        <p className="text-[#FF7C28] md:text-lg text-[18px] font-bold">
+          {puesto}
+        </p>
+        {socio && (
+          <p className="md:flex hidden text-[#1A56D0] whitespace-pre-line leading-tight">
+            {bio}
+          </p>
+        )}
         {linkedin && (
           // <a
           //   className="text-center hover:underline cursor-pointer text-[#1A56D0] mt-5"
@@ -60,7 +66,7 @@ function CardStaff({
           //   Ir a Linkedin →
           // </a>
           <a
-            className="bg-[#1A56D0] mt-3 mx-auto w-8 h-8 rounded-sm flex items-center justify-center shadow-md cursor-pointer hover:bg-[#1549b1] transition-all duration-100"
+            className="bg-[#1A56D0] mt-3 mx-auto w-12 h-8 rounded-sm flex  items-center justify-center shadow-md cursor-pointer hover:bg-[#1549b1] transition-all duration-100"
             href="https://www.linkedin.com/company/spe-consultores/"
             target="_blank"
           >

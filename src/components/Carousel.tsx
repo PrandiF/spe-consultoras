@@ -110,9 +110,9 @@ export default function Carousel({
         <div
           ref={containerRef}
           onScroll={handleScroll}
-          className={`overflow-x-scroll hide-scrollbar flex ${
-            twoPerView ? "gap-12" : "gap-4"
-          } snap-x snap-mandatory  px-4 sm:px-10 py-2`}
+          className={`overflow-x-scroll hide-scrollbar flex flex-1 ${
+            twoPerView ? "gap-12" : "gap-2"
+          } snap-x snap-mandatory   sm:px-10 py-2`}
           style={{ scrollBehavior: "smooth" }}
         >
           {items.map((child, index) => (
@@ -121,7 +121,7 @@ export default function Carousel({
               className={`shrink-0 ${
                 twoPerView
                   ? "w-[50%] snap-start flex justify-center"
-                  : "w-full  mx-auto snap-center px-2 flex justify-center"
+                  : "w-full  mx-auto snap-center  flex justify-center"
               }`}
             >
               {child}

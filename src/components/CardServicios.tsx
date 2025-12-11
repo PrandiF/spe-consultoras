@@ -52,16 +52,32 @@ function CardServicios({
             : " md:rounded-r-2xl rounded-b-2xl md:rounded-bl-none pl-4"
         }`}
       >
-        <h3 className="text-2xl font-semibold mt-2">{titulo}</h3>
+        <h3 className="md:text-3xl text-2xl font-semibold mt-2">{titulo}</h3>
         <ul className="list-disc ml-6 marker:text-[#FF7C28]">
-          {descripcion1 && <li className="text-base">{descripcion1}</li>}
-          {descripcion2 && <li className="text-base">{descripcion2}</li>}
-          {descripcion3 && <li className="text-base">{descripcion3}</li>}
-          {descripcion4 && <li className="text-base">{descripcion4}</li>}
-          {descripcion5 && <li className="text-base">{descripcion5}</li>}
-          {descripcion6 && <li className="text-base">{descripcion6}</li>}
-          {descripcion7 && <li className="text-base">{descripcion7}</li>}
-          {descripcion8 && <li className="text-base">{descripcion8}</li>}
+          {descripcion1 && (
+            <li className="text-base md:text-lg">{descripcion1}</li>
+          )}
+          {descripcion2 && (
+            <li className="text-base md:text-lg">{descripcion2}</li>
+          )}
+          {descripcion3 && (
+            <li className="text-base md:text-lg">{descripcion3}</li>
+          )}
+          {descripcion4 && (
+            <li className="text-base md:text-lg">{descripcion4}</li>
+          )}
+          {descripcion5 && (
+            <li className="text-base md:text-lg">{descripcion5}</li>
+          )}
+          {descripcion6 && (
+            <li className="text-base md:text-lg">{descripcion6}</li>
+          )}
+          {descripcion7 && (
+            <li className="text-base md:text-lg">{descripcion7}</li>
+          )}
+          {descripcion8 && (
+            <li className="text-base md:text-lg">{descripcion8}</li>
+          )}
         </ul>
       </div>
     </div>

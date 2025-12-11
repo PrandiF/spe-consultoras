@@ -13,12 +13,12 @@
     "descripcion": "Strategic contribution and value creation in communications, public affairs, and institutional marketing.",
     "botones": {
       "servicios": "Services",
-      "conoceMas": "Conocé Más"
+      "conoceMas": "Learn more"
     }
   },
   "nuestraEmpresa": {
     "home": {
-      "titulo1": "Conocé",
+      "titulo1": "Discover",
       "titulo2": "SpE Consultores"
     },
     "titulo1": "About",
@@ -222,77 +222,90 @@
   "staff": {
     "titulo": "Our",
     "titulo2": "Team",
+
     "FabianFalco": {
       "nombre": "Fabián Falco",
-      "cargo": "Managing Partner",
-      "bio": "Developed comprehensive communication and relationship campaigns for politicians, media outlets, institutions, and companies. Served as Chairman of the Board of El Cronista Comercial S.A. for two years. For over eight years, he was Director of Communication and External Relations at Repsol YPF for Argentina, Brazil, and Bolivia. Between 1993 and 2001, he was Director of External Communications and Marketing at Aguas Argentinas (Suez Group). In 2007, he received the Konex Platinum Award as the best Institutional Communication figure of the decade."
+      "puesto": "Managing Partner",
+      "bio": "He developed comprehensive communication and relationship-building campaigns for politicians, media outlets, institutions, and companies.\n\nHe served as Chairman of the Board of El Cronista Comercial S.A. for two years.\n\nFor more than 8 years, he was Director of Communications and External Relations at Repsol YPF for Argentina, Brazil, and Bolivia, with direct responsibility over: Institutional Relations, Press, Advertising, Market Research, Marketing, Corporate Identity, E-marketing, Public Relations, Events, and Corporate Social Responsibility.\n\nBetween 1993 and 2001, he held the position of Director of External Communications and Marketing at Aguas Argentinas (Operator: Suez Group).\n\nBetween 1987 and 1993, he served as Head of Communications and Press at the Bridas Group.\n\nHe worked as a professional journalist in various national and regional media outlets.\n\nIn 2007, he received the Konex Platinum Award as the most outstanding figure in Institutional Communication of the decade. In 2004, he received the Jerry Goldenberg Award for Communication Excellence and the award from the Public Relations Professional Council."
     },
+
     "GenovevaSposetti": {
       "nombre": "Genoveva Sposetti",
-      "cargo": "Director",
-      "bio": "Bachelor’s Degree in Public Relations (UADE) and Postgraduate in Corporate Affairs Management (UCA). Worked at consulting firms MDG Comunicación e Imagen and Mauro y Estomba.",
+      "puesto": "Director",
+      "bio": "Bachelor in Public Relations (UADE) and Postgraduate in Corporate Affairs Management (UCA). She worked at the consulting firms MDG Comunicación e Imagen and Mauro y Estomba.",
       "linkedin": "https://www.linkedin.com/in/genoveva-sposetti-a896a623/?originalSubdomain=ar"
     },
+
     "SusanaMaggiorini": {
       "nombre": "Susana Maggiorini",
-      "cargo": "Account Director",
-      "bio": "Bachelor’s Degree in Public and Institutional Relations and Postgraduate in Corporate Affairs Management (UCA). Formerly worked at Consultores del Plata.",
+      "puesto": "Account Director",
+      "bio": "Bachelor in Public and Institutional Relations and Postgraduate in Corporate Affairs Management (UCA). Former Consultores del Plata.",
       "linkedin": "https://www.linkedin.com/in/susanamaggiorini/?originalSubdomain=ar"
     },
+
     "NicolasCastano": {
       "nombre": "Nicolás Castaño",
-      "cargo": "General Coordinator",
-      "bio": "Bachelor’s Degree in Public Relations (UADE), with a specialization in International Relations and Government. Postgraduate in Corporate Affairs Management (UCA). Over 15 years of experience in communication and corporate affairs.",
+      "puesto": "General Coordinator",
+      "bio": "Bachelor in Public Relations (UADE), specialized in International Relations and Government. Postgraduate in Corporate Affairs Management (UCA). More than 15 years of experience in communication and corporate affairs.",
       "linkedin": "https://www.linkedin.com/in/nicolascasta%C3%B1o/?originalSubdomain=ar"
     },
+
     "DamianJuarez": {
       "nombre": "Damián Juárez",
-      "cargo": "Project Associate Manager",
-      "bio": "Professor, journalist, and political columnist. Co-director of the radio show 'Huevos Revueltos' (Radio con Vos). Political editor at Crónica newspaper. Former Editor-in-Chief at Télam and producer at 'A Dos Voces' (TN).",
+      "puesto": "Associate Project Manager",
+      "bio": "Professor, journalist, and political columnist. Co-director of the radio show 'Huevos Revueltos' (Radio con Vos). Political editor at Crónica newspaper. Former newsroom chief at Télam and producer at 'A Dos Voces' (TN).",
       "linkedin": "https://www.linkedin.com/in/dami%C3%A1n-ju%C3%A1rez-0a5465111/?originalSubdomain=ar"
     },
+
     "GonzaloDiaz": {
       "nombre": "Gonzalo Díaz",
-      "cargo": "Public Affairs Leader",
-      "bio": "Lawyer (UNR), specialized in Labor and Parliamentary Law. Extensive experience in public and parliamentary affairs across both public and private sectors.",
+      "puesto": "Public Affairs Lead",
+      "bio": "Lawyer (UNR), specialized in Labor and Parliamentary Law. Extensive experience in public and parliamentary affairs in both the public and private sectors.",
       "linkedin": "https://www.linkedin.com/in/gonzalo-fernando-d%C3%ADaz-890972156/?originalSubdomain=ar"
     },
+
     "EvelynVallejos": {
       "nombre": "Evelyn Vallejos",
-      "cargo": "Health Leader & Account Executive",
-      "bio": "Bachelor’s Degree in Communication Sciences. Internal Communication Management (Univ. Siglo 21). Specialist in Scientific and Health Communication.",
+      "puesto": "Health Lead & Account Executive",
+      "bio": "Bachelor in Communication Sciences. Internal Communication Management (Univ. Siglo 21). Specialist in Scientific and Health Communication.",
       "linkedin": "https://www.linkedin.com/in/evelyn-r-vallejos-3ab4aa173/"
     },
+
     "EnzoPotesPouyanne": {
       "nombre": "Enzo Potes Pouyanne",
-      "cargo": "Account Executive",
-      "bio": "Bachelor’s Degree in Public and Institutional Relations (USAL). Master’s in Political Communication and Electoral Campaigns (UCM, Madrid).",
+      "puesto": "Account Executive",
+      "bio": "Bachelor in Public and Institutional Relations (USAL). Master's in Political Communication and Electoral Campaigns (UCM, Madrid).",
       "linkedin": "https://www.linkedin.com/in/enzo-leonardo-potes-a1497776/"
     },
+
     "JoaquinVilaplana": {
       "nombre": "Joaquín Vilaplana",
-      "cargo": "Account Executive",
-      "bio": "Bachelor’s Degree in Social Communication (UBA) with experience in writing, editing, and coordinating internal communication materials.",
+      "puesto": "Account Executive",
+      "bio": "Bachelor in Social Communication (UBA) with experience in writing, editing, and coordinating internal communication materials.",
       "linkedin": "https://www.linkedin.com/in/joaqu%C3%ADn-vilaplana-4502b4192/"
     },
+
     "ArianaLopezPasquare": {
       "nombre": "Ariana López Pasquaré",
-      "cargo": "Account Executive",
-      "bio": "Bachelor’s Degree in Communication Sciences (UADE) with experience in writing (Clarín) and political community management.",
+      "puesto": "Account Executive",
+      "bio": "Bachelor in Communication Sciences (UADE) with experience in writing (Clarín) and managing political communities.",
       "linkedin": "https://www.linkedin.com/in/ariana-l%C3%B3pez-pasquar%C3%A9-0612a4230/?originalSubdomain=ar"
     },
+
     "EugeniaSilvestre": {
       "nombre": "Eugenia Silvestre",
-      "cargo": "Account Executive",
-      "bio": "Bachelor’s Degree in Public and Institutional Relations (UADE) with previous experience in consulting as an account assistant.",
+      "puesto": "Account Executive",
+      "bio": "Bachelor in Public and Institutional Relations (UADE) with previous experience in consulting as an account assistant.",
       "linkedin": "https://www.linkedin.com/in/eugenia-silvestre-20169a158/?originalSubdomain=ar"
     },
+
     "FaustoMendozaJoy": {
       "nombre": "Fausto Mendoza Joy",
-      "cargo": "Account Executive",
-      "bio": "Journalist (Tea & Deportea) and Bachelor’s Degree in Communication Sciences (UADE), with experience across various mass media.",
+      "puesto": "Account Executive",
+      "bio": "Journalist (Tea & Deportea) and Bachelor in Communication Sciences (UADE), with experience in various mass media outlets.",
       "linkedin": "https://www.linkedin.com/in/fausto-mendoza-joy-9649791aa/"
     },
+
     "FlorenciaTaranto": {
       "nombre": "Florencia Taranto",
       "puesto": "Account Executive",
@@ -300,6 +313,7 @@
       "linkedin": "https://www.linkedin.com/in/florencia-taranto/"
     }
   },
+
   "contactate": {
     "titulo": "Contact",
     "titulo2": " with Us"

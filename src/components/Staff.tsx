@@ -10,10 +10,11 @@ import FaustoMendoza from "../../public/empleados/FaustoMendozaJoy.webp";
 import JoaquinVilaplana from "../../public/empleados/JoaquinVilaplana.webp";
 import GenovevaSposetti from "../../public/empleados/GenovevaSposetti.webp";
 import EvelynVallejos from "../../public/empleados/EvelynVallejos.webp";
-import DamianJuarez from "../../public/empleados/DamiánJuárez.webp";
+import DamianJuarez from "../../public/empleados/DamianJuarez.webp";
 import GonzaloDiaz from "../../public/empleados/GonzaloDiaz.webp";
 import SusanaMaggiorini from "../../public/empleados/SusanaMaggiorini.webp";
 import NicolasCastano from "../../public/empleados/NicolasCastano.webp";
+import FlorenciaTaranto from "../../public/empleados/FlorenciaTaranto.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -49,7 +50,7 @@ function Staff({ id }: StaffProps) {
       </div>
 
       <div
-        className="flex md:flex-col gap-6 items-start justify-center bg-[#F0F0F0] md:w-[82%] w-[95%] mx-auto rounded-3xl py-10 px-7 shadow-[0_12px_20px_rgba(0,0,0,0.4)]"
+        className="flex md:flex-col gap-6 items-start justify-center bg-[#F0F0F0] md:w-[82%] w-[95%] mx-auto rounded-3xl py-10 md:px-7 shadow-[0_12px_20px_rgba(0,0,0,0.4)]"
         data-aos="fade"
         data-aos-duration="1100"
         data-aos-delay="500"
@@ -145,7 +146,7 @@ function Staff({ id }: StaffProps) {
             linkedin={t("staff.FaustoMendozaJoy.linkedin")}
           />
           <CardStaff
-            img={FaustoMendoza}
+            img={FlorenciaTaranto}
             empleado
             nombre={t("staff.FlorenciaTaranto.nombre")}
             puesto={t("staff.FlorenciaTaranto.puesto")}
@@ -167,66 +168,84 @@ function Staff({ id }: StaffProps) {
               director
               nombre={t("staff.GenovevaSposetti.nombre")}
               puesto={t("staff.GenovevaSposetti.puesto")}
+              linkedin={t("staff.GenovevaSposetti.linkedin")}
             />
             <CardStaff
               img={EnzoPotes}
               director
               nombre={t("staff.SusanaMaggiorini.nombre")}
               puesto={t("staff.SusanaMaggiorini.puesto")}
+              linkedin={t("staff.SusanaMaggiorini.linkedin")}
             />
             <CardStaff
               img={NicolasCastano}
               empleado
               nombre={t("staff.NicolasCastano.nombre")}
               puesto={t("staff.NicolasCastano.puesto")}
+              linkedin={t("staff.NicolasCastano.linkedin")}
             />
             <CardStaff
               img={DamianJuarez}
               empleado
               nombre={t("staff.DamianJuarez.nombre")}
               puesto={t("staff.DamianJuarez.puesto")}
+              linkedin={t("staff.DamianJuarez.linkedin")}
             />
             <CardStaff
               img={GonzaloDiaz}
               empleado
               nombre={t("staff.GonzaloDiaz.nombre")}
               puesto={t("staff.GonzaloDiaz.puesto")}
+              linkedin={t("staff.GonzaloDiaz.linkedin")}
             />
             <CardStaff
               img={EvelynVallejos}
               empleado
               nombre={t("staff.EvelynVallejos.nombre")}
               puesto={t("staff.EvelynVallejos.puesto")}
+              linkedin={t("staff.EvelynVallejos.linkedin")}
             />
             <CardStaff
               img={EnzoPotes}
               empleado
               nombre={t("staff.EnzoPotesPouyanne.nombre")}
               puesto={t("staff.EnzoPotesPouyanne.puesto")}
+              linkedin={t("staff.EnzoPotesPouyanne.linkedin")}
             />
             <CardStaff
               img={JoaquinVilaplana}
               empleado
               nombre={t("staff.JoaquinVilaplana.nombre")}
               puesto={t("staff.JoaquinVilaplana.puesto")}
+              linkedin={t("staff.JoaquinVilaplana.linkedin")}
             />
             <CardStaff
               img={ArianaLopez}
               empleado
               nombre={t("staff.ArianaLopezPasquare.nombre")}
               puesto={t("staff.ArianaLopezPasquare.puesto")}
+              linkedin={t("staff.ArianaLopezPasquare.linkedin")}
             />
             <CardStaff
               img={EugeniaSilvestre}
               empleado
               nombre={t("staff.EugeniaSilvestre.nombre")}
               puesto={t("staff.EugeniaSilvestre.puesto")}
+              linkedin={t("staff.EugeniaSilvestre.linkedin")}
             />
             <CardStaff
               img={FaustoMendoza}
               empleado
               nombre={t("staff.FaustoMendozaJoy.nombre")}
               puesto={t("staff.FaustoMendozaJoy.puesto")}
+              linkedin={t("staff.FaustoMendozaJoy.linkedin")}
+            />
+            <CardStaff
+              img={FlorenciaTaranto}
+              empleado
+              nombre={t("staff.FlorenciaTaranto.nombre")}
+              puesto={t("staff.FlorenciaTaranto.puesto")}
+              linkedin={t("staff.FlorenciaTaranto.linkedin")}
             />
           </Carousel>
         </div>
