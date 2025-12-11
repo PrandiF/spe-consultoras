@@ -37,7 +37,7 @@ function Services({ id }: valoresProps) {
       </div>
 
       <div
-        className="flex flex-col gap-6 justify-center items-center xl:w-[90%] md:w-[90%]"
+        className="flex flex-col gap-6 justify-center items-center xl:w-[70%] md:w-[90%]"
         data-aos="fade"
         data-aos-duration="1200"
         data-aos-delay="400"
