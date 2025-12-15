@@ -20,7 +20,7 @@ function HomeNuestraEmpresa({ id }: homeNuestraEmpresaProps) {
     >
       <div className="md:w-1/2 z-10 flex flex-col md:items-start md:justify-start md:text-start justify-center items-center md:pl-20 px-10">
         <h1
-          className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg leading-tight text-[#003DA6]"
+          className="text-4xl xl:text-6xl font-bold mb-4 drop-shadow-lg leading-tight text-[#003DA6]"
           data-aos="fade"
           data-aos-duration="1000"
           data-aos-delay="300"
@@ -28,7 +28,7 @@ function HomeNuestraEmpresa({ id }: homeNuestraEmpresaProps) {
           {t("nuestraEmpresa.home.titulo1")}
         </h1>
         <h1
-          className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg leading-tight text-[#FF7C28]"
+          className="text-4xl xl:text-6xl font-bold mb-4 drop-shadow-lg leading-tight text-[#FF7C28]"
           data-aos="fade"
           data-aos-duration="1000"
           data-aos-delay="300"

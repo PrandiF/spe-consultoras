@@ -17,6 +17,11 @@ export default function Carousel({
   const [ready, setReady] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
 
+  const slides = [];
+  for (let i = 0; i < children.length; i += 2) {
+    slides.push([children[i], children[i + 1]]);
+  }
+
   // triple items para loop
   const items = twoPerView ? children : [...children, ...children, ...children];
 
@@ -110,21 +115,29 @@ export default function Carousel({
         <div
           ref={containerRef}
           onScroll={handleScroll}
-          className={`overflow-x-scroll hide-scrollbar flex flex-1 ${
-            twoPerView ? "gap-12" : "gap-2"
-          } snap-x snap-mandatory   sm:px-10 py-2`}
+          className={`overflow-x-scroll hide-scrollbar flex snap-x snap-mandatory w-full ${
+            twoPerView ? "gap-12 px-4 mx-4" : "flex-1 gap-2"
+          }`}
           style={{ scrollBehavior: "smooth" }}
         >
-          {items.map((child, index) => (
+          {slides.map((pair, index) => (
             <div
               key={index}
-              className={`shrink-0 ${
-                twoPerView
-                  ? "w-[50%] snap-start flex justify-center"
-                  : "w-full  mx-auto snap-center  flex justify-center"
-              }`}
+              className="shrink-0 w-full snap-center flex justify-center"
             >
-              {child}
+              {/* 📱 MOBILE → 1 item centrado */}
+              <div className="flex w-full justify-center md:hidden py-2">
+                <div className="w-full flex justify-center">{pair[0]}</div>
+              </div>
+
+              {/* 💻 DESKTOP → 2 items */}
+              <div className="hidden md:flex w-full justify-center gap-6">
+                {pair.map((child, i) => (
+                  <div key={i} className="w-1/2 flex justify-center">
+                    {child}
+                  </div>
+                ))}
+              </div>
             </div>
           ))}
         </div>

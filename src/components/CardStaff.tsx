@@ -27,14 +27,17 @@ function CardStaff({
       className={`${socio && "flex md:flex-row flex-col md:w-full w-56"} ${
         director && "flex md:flex-row flex-col md:w-full w-56"
       } ${
-        empleado && "flex flex-col md:w-[22%] w-56"
+        empleado && "flex flex-col xl:w-[22%] w-56"
       } bg-white rounded-2xl md:shadow-2xl shadow-lg 
 `}
     >
       <div
-        className={`${socio && "md:w-[30%]"} ${
-          director && "md:w-[45%]"
-        } flex justify-center items-center py-2`}
+        className={`${
+          socio &&
+          "xl:w-[30%] xl:justify-center xl:items-center md:items-start pl-3"
+        } ${director && "md:w-[45%] justify-center items-center"} ${
+          empleado && "justify-center items-center"
+        } flex py-2`}
       >
         <Image src={img} alt="Staff Image" className="w-[90%]" />
       </div>

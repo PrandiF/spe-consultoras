@@ -10,7 +10,7 @@ function BarraDatos() {
     >
       <div className="flex flex-col items-center justify-center px-4">
         <p
-          className="font-bold text-4xl md:text-6xl"
+          className="font-bold text-4xl xl:text-6xl"
           data-aos="fade"
           data-aos-duration="1000"
           data-aos-delay="300"
@@ -18,7 +18,7 @@ function BarraDatos() {
           20
         </p>
         <p
-          className="font-normal text-lg md:text-xl"
+          className="font-normal text-lg xl:text-xl"
           data-aos="fade"
           data-aos-duration="1000"
           data-aos-delay="400"
@@ -29,7 +29,7 @@ function BarraDatos() {
 
       <div className="flex flex-col items-center justify-center px-4">
         <p
-          className="font-bold text-4xl md:text-6xl"
+          className="font-bold text-4xl xl:text-6xl"
           data-aos="fade"
           data-aos-duration="1000"
           data-aos-delay="300"
@@ -37,7 +37,7 @@ function BarraDatos() {
           +50
         </p>
         <p
-          className="font-normal text-lg md:text-xl"
+          className="font-normal text-lg xl:text-xl"
           data-aos="fade"
           data-aos-duration="1000"
           data-aos-delay="400"
@@ -47,7 +47,7 @@ function BarraDatos() {
       </div>
       <div className="flex flex-col items-center justify-center px-4">
         <p
-          className="font-bold text-4xl md:text-6xl"
+          className="font-bold text-4xl xl:text-6xl"
           data-aos="fade"
           data-aos-duration="1000"
           data-aos-delay="300"
@@ -55,7 +55,7 @@ function BarraDatos() {
           45
         </p>
         <p
-          className="font-normal text-lg md:text-xl"
+          className="font-normal text-lg xl:text-xl"
           data-aos="fade"
           data-aos-duration="1000"
           data-aos-delay="400"
@@ -65,7 +65,7 @@ function BarraDatos() {
       </div>
       <div className="flex flex-col items-center justify-center px-4">
         <p
-          className="font-bold text-4xl md:text-6xl"
+          className="font-bold text-4xl xl:text-6xl"
           data-aos="fade"
           data-aos-duration="1000"
           data-aos-delay="300"
@@ -73,7 +73,7 @@ function BarraDatos() {
           +100
         </p>
         <p
-          className="font-normal text-lg md:text-xl"
+          className="font-normal text-lg xl:text-xl"
           data-aos="fade"
           data-aos-duration="1000"
           data-aos-delay="400"

@@ -36,7 +36,7 @@ export default function LinkedInCard({
             <Image src={logoSpE} alt="logo" className="w-12 h-12 " />
 
             <div className="flex flex-col">
-              <span className="font-semibold text-lg">SpE Consultores</span>
+              <span className="font-semibold md:text-lg">SpE Consultores</span>
               <span className="text-xs text-gray-500 flex items-center gap-1">
                 <CalendarDays className="w-3 h-3" /> {fecha}
               </span>

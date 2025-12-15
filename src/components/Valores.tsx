@@ -39,7 +39,7 @@ function Valores({ id }: valoresProps) {
         </p>
       </div>
       <div
-        className="hidden xl:grid md:grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-rows-8 sm:grid-rows-4 lg:grid-rows-2 mx-auto md:w-[95%]"
+        className="hidden xl:grid md:grid md:gap-10 gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 grid-rows-8 sm:grid-rows-4 lg:grid-rows-2 mx-auto xl:w-[82%]"
         data-aos="fade"
         data-aos-duration="1000"
         data-aos-delay="500"

@@ -16,7 +16,7 @@ export default function Carousel2({ children }: Props) {
     const checkSize = () => {
       if (window.innerWidth >= 1024) {
         setItemsPerPage(3); // Desktop grande → 3 por página
-      } else if (window.innerWidth >= 768) {
+      } else if (window.innerWidth >= 760) {
         setItemsPerPage(2); // Tablet → 2 por página
       } else {
         setItemsPerPage(1); // Mobile → 1 por página
