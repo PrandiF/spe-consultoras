@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useEffect } from "react";
-import banner from "../../public/imgBanner.webp";
+import banner from "../../public/imgBanner2.webp";
 import { useTranslation } from "react-i18next";
 import AOS from "aos";
 import "aos/dist/aos.css";

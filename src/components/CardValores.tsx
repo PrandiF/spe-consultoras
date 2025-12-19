@@ -49,7 +49,7 @@ function CardValores({
         <p
           className={`text-[#FF7C28] font-sans ${
             confidencialidad && i18n.language === "en"
-              ? "flex flex-row-reverse"
+              ? "flex flex-row-reverse gap-1"
               : ""
           }`}
         >

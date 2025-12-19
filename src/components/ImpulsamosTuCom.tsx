@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
+import Link from "next/link";
 
 function ImpulsamosTuCom() {
   useEffect(() => {
@@ -32,9 +33,12 @@ function ImpulsamosTuCom() {
 
       {/* Columna 3 */}
       <div className="md:w-1/3 flex xl:justify-center md:justify-end">
-        <button className="bg-[#FF7C28] px-10 py-4 rounded-full font-semibold text-white text-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer">
+        <Link
+          href="/contacto"
+          className="bg-[#FF7C28] px-10 py-4 rounded-full font-semibold text-white text-xl shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer"
+        >
           {t("impulsamosTuCom.boton")}
-        </button>
+        </Link>
       </div>
     </div>
   );

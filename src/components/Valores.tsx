@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import CardValores from "./CardValores";
-import imgBanner from "../../public/imgBanner.webp";
 import Carousel from "./Carousel";
 import imgConfidencialidad from "../../public/valores/imgConfidencialidad.webp";
 import imgVocacion from "../../public/valores/imgVocacion.webp";
@@ -11,6 +10,14 @@ import imgCreatividad from "../../public/valores/imgCreatividad.webp";
 import imgFlexibilidad from "../../public/valores/imgFlexibilidad.webp";
 import imgEtica from "../../public/valores/imgEtica.webp";
 import imgConsistencia from "../../public/valores/imgConsistencia.webp";
+import confidencialidad from "../../public/valores/confidencialidad.webp";
+import creatividad from "../../public/valores/creatividad.webp";
+import experiencia from "../../public/valores/experiencia.webp";
+import profesionalismo from "../../public/valores/profesionalismo.webp";
+import vocacion from "../../public/valores/vocacion.webp";
+import etica from "../../public/valores/etica.webp";
+import coherencia from "../../public/valores/coherencia.webp";
+import flexibilidad from "../../public/valores/flexibilidad.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -45,39 +52,39 @@ function Valores({ id }: valoresProps) {
         data-aos-delay="500"
       >
         <CardValores
-          img={imgBanner}
+          img={experiencia}
           valor="experiencia"
           imgCirculoAzul={imgExperiencia}
         />
         <CardValores
-          img={imgBanner}
+          img={profesionalismo}
           valor="profesionalismo"
           imgCirculoAzul={imgProfesionalismo}
         />
         <CardValores
-          img={imgBanner}
+          img={creatividad}
           valor="creatividad"
           imgCirculoAzul={imgCreatividad}
         />
         <CardValores
-          img={imgBanner}
+          img={flexibilidad}
           valor="flexibilidad"
           imgCirculoAzul={imgFlexibilidad}
         />
-        <CardValores img={imgBanner} valor="etica" imgCirculoAzul={imgEtica} />
+        <CardValores img={etica} valor="etica" imgCirculoAzul={imgEtica} />
         <CardValores
-          img={imgBanner}
+          img={confidencialidad}
           valor="confidencialidad"
           imgCirculoAzul={imgConfidencialidad}
           confidencialidad={true}
         />
         <CardValores
-          img={imgBanner}
+          img={vocacion}
           valor="compromiso"
           imgCirculoAzul={imgVocacion}
         />
         <CardValores
-          img={imgBanner}
+          img={coherencia}
           valor="consistencia"
           imgCirculoAzul={imgConsistencia}
         />
@@ -91,42 +98,38 @@ function Valores({ id }: valoresProps) {
       >
         <Carousel>
           <CardValores
-            img={imgBanner}
+            img={experiencia}
             valor="experiencia"
             imgCirculoAzul={imgExperiencia}
           />
           <CardValores
-            img={imgBanner}
+            img={profesionalismo}
             valor="profesionalismo"
             imgCirculoAzul={imgProfesionalismo}
           />
           <CardValores
-            img={imgBanner}
+            img={creatividad}
             valor="creatividad"
             imgCirculoAzul={imgCreatividad}
           />
           <CardValores
-            img={imgBanner}
+            img={flexibilidad}
             valor="flexibilidad"
             imgCirculoAzul={imgFlexibilidad}
           />
+          <CardValores img={etica} valor="etica" imgCirculoAzul={imgEtica} />
           <CardValores
-            img={imgBanner}
-            valor="etica"
-            imgCirculoAzul={imgEtica}
-          />
-          <CardValores
-            img={imgBanner}
+            img={confidencialidad}
             valor="confidencialidad"
             imgCirculoAzul={imgConfidencialidad}
           />
           <CardValores
-            img={imgBanner}
+            img={vocacion}
             valor="compromiso"
             imgCirculoAzul={imgVocacion}
           />
           <CardValores
-            img={imgBanner}
+            img={coherencia}
             valor="consistencia"
             imgCirculoAzul={imgConsistencia}
           />

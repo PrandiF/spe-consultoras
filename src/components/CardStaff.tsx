@@ -70,7 +70,7 @@ function CardStaff({
           // </a>
           <a
             className="bg-[#1A56D0] mt-3 mx-auto w-12 h-8 rounded-sm flex  items-center justify-center shadow-md cursor-pointer hover:bg-[#1549b1] transition-all duration-100"
-            href="https://www.linkedin.com/company/spe-consultores/"
+            href={linkedin}
             target="_blank"
           >
             <FaLinkedinIn className="text-white text-sm" />

@@ -1,7 +1,12 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import CardServicios from "./CardServicios";
-import imgBanner from "../../public/imgBanner.webp";
+import asuntosPublicos from "../../public/servicios/asuntosPublicos.webp";
+import capacitacionVoceros from "../../public/servicios/capacitacionVoceros.webp";
+import ComEstrategica from "../../public/servicios/ComEstrategica.webp";
+import analisisYProyeccion from "../../public/servicios/analisisYProyeccion.webp";
+import estrategiasDigitales from "../../public/servicios/estrategiasDigitales.webp";
+import imgCorporativa from "../../public/servicios/imgCorporativa.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -43,14 +48,14 @@ function Services({ id }: valoresProps) {
         data-aos-delay="400"
       >
         <CardServicios
-          img={imgBanner}
+          img={ComEstrategica}
           titulo={t("servicios.ComunicacionEstrategica.titulo")}
           descripcion1={t("servicios.ComunicacionEstrategica.descripcion1")}
           descripcion2={t("servicios.ComunicacionEstrategica.descripcion2")}
           descripcion3={t("servicios.ComunicacionEstrategica.descripcion3")}
         />
         <CardServicios
-          img={imgBanner}
+          img={analisisYProyeccion}
           titulo={t("servicios.MarketingInstitucional.titulo")}
           descripcion1={t("servicios.MarketingInstitucional.descripcion1")}
           descripcion2={t("servicios.MarketingInstitucional.descripcion2")}
@@ -60,7 +65,7 @@ function Services({ id }: valoresProps) {
           reverse={true}
         />
         <CardServicios
-          img={imgBanner}
+          img={asuntosPublicos}
           titulo={t("servicios.AsuntosPublicos.titulo")}
           descripcion1={t("servicios.AsuntosPublicos.descripcion1")}
           descripcion2={t("servicios.AsuntosPublicos.descripcion2")}
@@ -73,7 +78,7 @@ function Services({ id }: valoresProps) {
         {showMore && (
           <>
             <CardServicios
-              img={imgBanner}
+              img={estrategiasDigitales}
               titulo={t("servicios.EstrategiasDigitales.titulo")}
               descripcion1={t("servicios.EstrategiasDigitales.descripcion1")}
               descripcion2={t("servicios.EstrategiasDigitales.descripcion2")}
@@ -83,7 +88,7 @@ function Services({ id }: valoresProps) {
               reverse={true}
             />
             <CardServicios
-              img={imgBanner}
+              img={imgCorporativa}
               titulo={t("servicios.ImagenCorporativa.titulo")}
               descripcion1={t("servicios.ImagenCorporativa.descripcion1")}
               descripcion2={t("servicios.ImagenCorporativa.descripcion2")}
@@ -92,7 +97,7 @@ function Services({ id }: valoresProps) {
               descripcion5={t("servicios.ImagenCorporativa.descripcion5")}
             />
             <CardServicios
-              img={imgBanner}
+              img={capacitacionVoceros}
               titulo={t("servicios.CapacitacionDeVoceros.titulo")}
               descripcion1={t("servicios.CapacitacionDeVoceros.descripcion1")}
               descripcion2={t("servicios.CapacitacionDeVoceros.descripcion2")}
