@@ -1,28 +1,48 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useMemo } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 type Props = {
   children: React.ReactNode[];
   showDots?: boolean;
+  twoPerView?: boolean;
 };
 
-export default function Carousel({ children, showDots = false }: Props) {
+export default function Carousel({
+  children,
+  showDots = false,
+  twoPerView = false,
+}: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
 
   /* =========================================================
-   * Calcula el slide activo
+   * Slides: 1 o 2 items según twoPerView (solo desktop)
+   * =======================================================*/
+  const slides = useMemo(() => {
+    if (!twoPerView) {
+      return children.map((child) => [child]);
+    }
+
+    const grouped: React.ReactNode[][] = [];
+    for (let i = 0; i < children.length; i += 2) {
+      grouped.push(children.slice(i, i + 2));
+    }
+    return grouped;
+  }, [children, twoPerView]);
+
+  /* =========================================================
+   * Índice activo
    * =======================================================*/
   const updateActiveIndex = () => {
     const container = containerRef.current;
     if (!container) return;
 
     const slideWidth = container.firstElementChild?.clientWidth || 1;
-
     const index = Math.round(container.scrollLeft / slideWidth);
-    setActiveIndex(Math.min(index, children.length - 1));
+
+    setActiveIndex(Math.min(index, slides.length - 1));
   };
 
   /* =========================================================
@@ -55,7 +75,7 @@ export default function Carousel({ children, showDots = false }: Props) {
   return (
     <div className="relative w-full flex flex-col items-center">
       <div className="relative w-full flex items-center">
-        {/* ⬅ Flecha izquierda */}
+        {/* ⬅ */}
         <button
           onClick={moveLeft}
           disabled={activeIndex === 0}
@@ -66,37 +86,48 @@ export default function Carousel({ children, showDots = false }: Props) {
           <ChevronLeft size={32} />
         </button>
 
-        {/* 🧩 Contenedor */}
+        {/* 🧩 Slides */}
         <div
           ref={containerRef}
           onScroll={updateActiveIndex}
           className="overflow-x-scroll hide-scrollbar flex snap-x snap-mandatory w-full"
           style={{ scrollBehavior: "smooth" }}
         >
-          {children.map((child, index) => (
+          {slides.map((slide, index) => (
             <div
               key={index}
-              className="
-                shrink-0 
-                snap-center 
-                w-full 
-                md:w-1/2 
-                flex 
-                justify-center 
-                px-4
-              "
+              className="shrink-0 snap-center w-full flex justify-center px-4"
             >
-              {child}
+              {/* 📱 Mobile → 1 */}
+              <div className="flex md:hidden w-full justify-center">
+                {slide[0]}
+              </div>
+
+              {/* 💻 Desktop */}
+              <div
+                className={`hidden md:flex w-full justify-center gap-6 ${
+                  twoPerView ? "" : "max-w-lg"
+                }`}
+              >
+                {slide.map((item, i) => (
+                  <div
+                    key={i}
+                    className={twoPerView ? "w-1/2 flex justify-center" : ""}
+                  >
+                    {item}
+                  </div>
+                ))}
+              </div>
             </div>
           ))}
         </div>
 
-        {/* ➡ Flecha derecha */}
+        {/* ➡ */}
         <button
           onClick={moveRight}
-          disabled={activeIndex === children.length - 1}
+          disabled={activeIndex === slides.length - 1}
           className={`p-2 z-10 ${
-            activeIndex === children.length - 1
+            activeIndex === slides.length - 1
               ? "opacity-30 pointer-events-none"
               : ""
           }`}
@@ -108,7 +139,7 @@ export default function Carousel({ children, showDots = false }: Props) {
       {/* 🔵 Dots */}
       {showDots && (
         <div className="flex gap-2 mt-3">
-          {children.map((_, i) => (
+          {slides.map((_, i) => (
             <div
               key={i}
               className={`w-2 h-2 rounded-full transition-all ${
