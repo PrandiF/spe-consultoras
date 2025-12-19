@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import EnzoPotes from "../../public/empleados/EnzoPotesPouyanne.webp";
 import CardStaff from "./CardStaff";
 import Carousel from "./Carousel";
-import ArianaLopez from "../../public/empleados/ArianaLópezPasquaré.webp";
+import ArianaLopez from "../../public/empleados/ArianaLopezPasquare.webp";
 import EugeniaSilvestre from "../../public/empleados/EugeniaSilvestre.webp";
 import FabianFalco from "../../public/empleados/FabianFalco.webp";
 import FaustoMendoza from "../../public/empleados/FaustoMendozaJoy.webp";
