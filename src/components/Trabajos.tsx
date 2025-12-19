@@ -43,7 +43,7 @@ function Trabajos({ id }: trabajosProps) {
         </p>
       </div>
 
-      <div className="md:flex hidden flex-wrap gap-6 justify-center w-[82%]">
+      <div className="md:flex hidden flex-wrap gap-6 justify-center xl:w-[82%] w-full mx-auto">
         <Carousel showDots twoPerView>
           <LinkedInCard
             imagen={elCronistaImg}

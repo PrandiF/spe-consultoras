@@ -50,7 +50,7 @@ function Staff({ id }: StaffProps) {
       </div>
 
       <div
-        className="flex md:flex-col gap-6 items-start justify-center bg-[#F0F0F0] md:w-[82%] w-[95%] mx-auto rounded-3xl py-10 md:px-7 shadow-[0_12px_20px_rgba(0,0,0,0.4)]"
+        className="flex md:flex-col gap-6 items-start justify-center bg-[#F0F0F0] xl:w-[82%] w-[95%] mx-auto rounded-3xl py-10 md:px-7 shadow-[0_12px_20px_rgba(0,0,0,0.4)]"
         data-aos="fade"
         data-aos-duration="1100"
         data-aos-delay="500"
@@ -81,7 +81,7 @@ function Staff({ id }: StaffProps) {
             linkedin={t("staff.SusanaMaggiorini.linkedin")}
           />
         </div>
-        <div className="md:flex hidden flex-wrap gap-10 justify-center w-full">
+        <div className="md:flex hidden flex-wrap md:gap-4 xl:gap-10 justify-center w-full">
           <CardStaff
             img={NicolasCastano}
             empleado

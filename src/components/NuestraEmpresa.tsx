@@ -13,14 +13,14 @@ function NuestraEmpresa({ id }: nuestraEmpresaProps) {
   const { t, i18n } = useTranslation();
   return (
     <div
-      className="relative md:w-[82%] w-[90%] mx-auto flex flex-col items-center justify-start overflow-hidden mt-[8%]  bg-[#F0F0F0] rounded-2xl shadow-[0_12px_20px_rgba(0,0,0,0.4)]"
+      className="relative xl:w-[82%] w-[90%] mx-auto flex flex-col items-center justify-start overflow-hidden mt-[8%]  bg-[#F0F0F0] rounded-2xl shadow-[0_12px_20px_rgba(0,0,0,0.4)]"
       id={id}
       data-aos="fade"
       data-aos-duration="1000"
     >
       {/* Contenido encima */}
       <div
-        className="relative z-10 w-full max-w-7xl mx-auto px-8 py-10 flex flex-col md:gap-5 gap-10"
+        className="relative z-10 w-full  mx-auto px-8 py-10 flex flex-col xl:gap-5 md:gap-3 gap-10"
         data-aos="fade"
         data-aos-duration="1000"
         data-aos-delay="300"

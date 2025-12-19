@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 type Props = {
   children: React.ReactNode[];
   showDots?: boolean;
-  twoPerView?: boolean; // ⬅ NUEVA PROP
+  twoPerView?: boolean;
 };
 
 export default function Carousel({
@@ -14,82 +14,49 @@ export default function Carousel({
   twoPerView = false,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [ready, setReady] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // triple items para loop
-  const items = twoPerView ? children : [...children, ...children, ...children];
+  /* =========================================================
+   * Armamos slides de 2 items
+   * =======================================================*/
+  const slides: React.ReactNode[][] = [];
+  for (let i = 0; i < children.length; i += 2) {
+    slides.push([children[i], children[i + 1]]);
+  }
 
-  useEffect(() => {
-    const container = containerRef.current;
-    if (!container) return;
-
-    // 👉 En modo twoPerView NO hacemos el reposicionamiento del loop
-    if (twoPerView) {
-      setReady(true);
-      return;
-    }
-
-    const timeout = setTimeout(() => {
-      const cardWidth = container.firstElementChild?.clientWidth || 0;
-      const start = children.length;
-
-      container.scrollLeft = start * (cardWidth + 16) + 1;
-      setReady(true);
-    }, 50);
-
-    return () => clearTimeout(timeout);
-  }, [children, twoPerView]);
-
+  /* =========================================================
+   * Actualiza índice activo
+   * =======================================================*/
   const updateActiveIndex = () => {
     const container = containerRef.current;
     if (!container) return;
 
     const cardWidth = container.firstElementChild?.clientWidth || 0;
-    const rawIndex = Math.round(container.scrollLeft / (cardWidth + 16));
-    const moduloIndex = rawIndex % children.length;
+    const index = Math.round(container.scrollLeft / (cardWidth + 16));
 
-    setActiveIndex(
-      ((moduloIndex % children.length) + children.length) % children.length
-    );
+    setActiveIndex(Math.min(index, children.length - 1));
   };
 
   const handleScroll = () => {
-    const container = containerRef.current;
-    if (!container || !ready) return;
-
-    // 👉 Si hay dos por vista, NO hacemos loop
-    if (twoPerView) {
-      updateActiveIndex();
-      return;
-    }
-
-    const cardWidth = container.firstElementChild?.clientWidth || 0;
-    const totalWidth = (cardWidth + 16) * children.length;
-
-    if (container.scrollLeft >= totalWidth * 2) {
-      container.scrollLeft = totalWidth;
-    }
-    if (container.scrollLeft <= 0) {
-      container.scrollLeft = totalWidth;
-    }
-
     updateActiveIndex();
   };
 
+  /* =========================================================
+   * Navegación
+   * =======================================================*/
   const moveLeft = () => {
     const container = containerRef.current;
     if (!container) return;
-    const cardWidth = container.firstElementChild?.clientWidth || 0;
 
+    const cardWidth = container.firstElementChild?.clientWidth || 0;
     container.scrollBy({ left: -(cardWidth + 16), behavior: "smooth" });
   };
 
   const moveRight = () => {
     const container = containerRef.current;
     if (!container) return;
-    const cardWidth = container.firstElementChild?.clientWidth || 0;
 
+    const cardWidth = container.firstElementChild?.clientWidth || 0;
     container.scrollBy({ left: cardWidth + 16, behavior: "smooth" });
   };
 
@@ -101,8 +68,11 @@ export default function Carousel({
         }`}
       >
         <button
-          className="p-2 z-10 cursor-pointer flex my-auto"
           onClick={moveLeft}
+          disabled={activeIndex === 0}
+          className={`p-2 z-10 cursor-pointer flex my-auto ${
+            activeIndex === 0 ? "opacity-30 pointer-events-none" : ""
+          }`}
         >
           <ChevronLeft size={32} />
         </button>
@@ -110,28 +80,44 @@ export default function Carousel({
         <div
           ref={containerRef}
           onScroll={handleScroll}
-          className={`overflow-x-scroll hide-scrollbar flex flex-1 ${
-            twoPerView ? "gap-12" : "gap-2"
-          } snap-x snap-mandatory   sm:px-10 py-2`}
+          className={`overflow-x-scroll hide-scrollbar flex snap-x snap-mandatory w-full ${
+            twoPerView ? "gap-12 px-4 mx-4" : "flex-1 gap-2"
+          }`}
           style={{ scrollBehavior: "smooth" }}
         >
-          {items.map((child, index) => (
+          {slides.map((pair, index) => (
             <div
               key={index}
-              className={`shrink-0 ${
-                twoPerView
-                  ? "w-[50%] snap-start flex justify-center"
-                  : "w-full  mx-auto snap-center  flex justify-center"
-              }`}
+              className="shrink-0 w-full snap-center flex justify-center"
             >
-              {child}
+              {/* 📱 MOBILE → 1 item */}
+              <div className="flex w-full justify-center md:hidden py-2">
+                <div className="w-full flex justify-center">{pair[0]}</div>
+              </div>
+
+              {/* 💻 DESKTOP → 2 items */}
+              <div className="hidden md:flex w-full justify-center gap-6">
+                {pair.map(
+                  (child, i) =>
+                    child && (
+                      <div key={i} className="w-1/2 flex justify-center">
+                        {child}
+                      </div>
+                    )
+                )}
+              </div>
             </div>
           ))}
         </div>
 
         <button
-          className="p-2 z-10 cursor-pointer flex my-auto"
           onClick={moveRight}
+          disabled={activeIndex === slides.length - 1}
+          className={`p-2 z-10 cursor-pointer flex my-auto ${
+            activeIndex === slides.length - 1
+              ? "opacity-30 pointer-events-none"
+              : ""
+          }`}
         >
           <ChevronRight size={32} />
         </button>

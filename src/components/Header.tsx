@@ -34,7 +34,7 @@ function Header() {
       data-aos-duration="1000"
     >
       <div
-        className="flex justify-between items-center px-6 md:px-32 py-4"
+        className="flex justify-between items-center px-6 xl:px-32 py-4"
         data-aos="fade"
         data-aos-duration="1000"
         data-aos-delay="800"
@@ -52,7 +52,7 @@ function Header() {
         </div>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex gap-8 text-lg items-center">
+        <nav className="hidden md:flex gap-8 xl:text-lg items-center">
           <Link
             href="/"
             className="relative text-[#003DA6] font-sans font-semibold cursor-pointer group"
@@ -74,7 +74,7 @@ function Header() {
 
           <Link
             href="/contacto"
-            className="text-white font-sans bg-[#FF7C28] font-semibold px-4 py-2 rounded-3xl hover:bg-[#e76b1f] transition cursor-pointer"
+            className="text-white bg-[#FF7C28] px-4 py-2 rounded-3xl hover:bg-[#e76b1f] transition cursor-pointer "
           >
             {t("menu.contacto")}
           </Link>
@@ -83,22 +83,18 @@ function Header() {
           <div className="flex items-center ml-2 space-x-3">
             <span
               onClick={() => changeLanguage("es")}
-              className={`
-      cursor-pointer text-sm font-semibold
-      transition-opacity duration-300
-      ${i18n.language === "es" ? "opacity-100" : "opacity-40"}
-    `}
+              className={`cursor-pointer text-sm font-semibold transition-opacity duration-300 ${
+                i18n.language === "es" ? "opacity-100" : "opacity-40"
+              }`}
             >
               ESP
             </span>
 
             <span
               onClick={() => changeLanguage("en")}
-              className={`
-      cursor-pointer text-sm font-semibold
-      transition-opacity duration-300
-      ${i18n.language === "en" ? "opacity-100" : "opacity-40"}
-    `}
+              className={`cursor-pointer text-sm font-semibold transition-opacity duration-300 ${
+                i18n.language === "en" ? "opacity-100" : "opacity-40"
+              }`}
             >
               ING
             </span>
@@ -148,22 +144,18 @@ function Header() {
           <div className="flex items-center ml-2 space-x-3">
             <span
               onClick={() => changeLanguage("es")}
-              className={`
-      cursor-pointer text-sm font-semibold
-      transition-opacity duration-300
-      ${i18n.language === "es" ? "opacity-100" : "opacity-40"}
-    `}
+              className={`cursor-pointer text-sm font-semibold transition-opacity duration-300 ${
+                i18n.language === "es" ? "opacity-100" : "opacity-40"
+              }`}
             >
               ESP
             </span>
 
             <span
               onClick={() => changeLanguage("en")}
-              className={`
-      cursor-pointer text-sm font-semibold
-      transition-opacity duration-300
-      ${i18n.language === "en" ? "opacity-100" : "opacity-40"}
-    `}
+              className={`cursor-pointer text-sm font-semibold transition-opacity duration-300 ${
+                i18n.language === "en" ? "opacity-100" : "opacity-40"
+              }`}
             >
               ING
             </span>

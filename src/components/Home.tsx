@@ -20,10 +20,10 @@ function Home({ id }: homeProps) {
   };
   return (
     <div
-      className="relative w-full pt-[20%] md:pt-[10%] md:pb-[2%] flex flex-row items-center justify-center text-center"
+      className="relative w-full pt-[20%] xl:pt-[10%] xl:pb-[2%] flex xl:flex-row flex-col items-center justify-center text-center"
       id={id}
     >
-      <div className="md:w-1/2 z-10 flex flex-col md:items-start md:justify-start md:text-start justify-center items-center md:pl-20 px-10">
+      <div className="xl:w-1/2 z-10 flex flex-col xl:items-start xl:justify-start xl:text-start justify-center items-center xl:pl-20 px-10">
         <h1
           className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg leading-tight text-[#003DA6]"
           data-aos="fade"
@@ -40,9 +40,9 @@ function Home({ id }: homeProps) {
         >
           {t("home.titulo2")}
         </h1>
-        <div className="md:w-[85%]">
+        <div className="xl:w-[85%]">
           <p
-            className="text-xl md:text-2xl mb-6 drop-shadow-md md:text-start text-[#003DA6]"
+            className="text-xl xl:text-2xl mb-6 drop-shadow-md xl:text-start text-[#003DA6]"
             data-aos="fade"
             data-aos-duration="1000"
             data-aos-delay="600"
@@ -95,7 +95,7 @@ function Home({ id }: homeProps) {
           </button>
         </div>
       </div>
-      <div className="w-1/2 pr-20 md:flex hidden">
+      <div className="xl:w-1/2 pr-20 xl:flex hidden">
         <div
           className="relative overflow-hidden rounded-2xl h-full shadow-2xl"
           data-aos="fade"
