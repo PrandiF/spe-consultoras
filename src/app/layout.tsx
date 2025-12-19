@@ -33,7 +33,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${firaSans.variable} antialiased`}>{children}</body>
+      <body
+        className={`${firaSans.variable} antialiased bg-white text-black min-h-screen`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
