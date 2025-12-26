@@ -171,7 +171,7 @@ function Staff({ id }: StaffProps) {
               linkedin={t("staff.GenovevaSposetti.linkedin")}
             />
             <CardStaff
-              img={EnzoPotes}
+              img={SusanaMaggiorini}
               director
               nombre={t("staff.SusanaMaggiorini.nombre")}
               puesto={t("staff.SusanaMaggiorini.puesto")}
