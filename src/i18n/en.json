@@ -40,6 +40,10 @@
       }
     ]
   },
+
+  "parentesisHome": {
+    "text1": "We support individuals, companies, institutions, and organizations in creating strategies to improve their positioning with their stakeholders, strengthening a positive image and minimizing risks."
+  },
   "trabajos": {
     "titulo1": "Our",
     "titulo2": "Jobs",
@@ -140,10 +144,10 @@
       "descripcion": " with the defined strategy for each project."
     },
     "estadisticas": {
-      "años": "years in the industry",
+      "años": "years delivering successful contributions",
       "profesionales": "professionals",
-      "eventos": "events produced",
-      "clientes": "major clients"
+      "clientes": "national and global clients",
+      "activaciones": "activations"
     }
   },
   "servicios": {
@@ -151,27 +155,26 @@
     "titulo2": "Services",
     "ComunicacionEstrategica": {
       "titulo": "Strategic Communication",
-      "descripcion1": "Establishment of solid and transparent connections with press professionals and media outlets.",
-      "descripcion2": "Efficient crisis management.",
-      "descripcion3": "Media Training."
+      "descripcion1": "Identification of key stakeholders.",
+      "descripcion2": "Building strong, professional, and transparent relationships with journalists, media outlets, opinion leaders, and new media influencers.",
+      "descripcion3": "Identification of reputational risks.",
+      "descripcion4": "Efficient management of crisis situations.",
+      "descripcion5": "Media training and coaching.",
+      "descripcion6": "Development of narratives tailored to each target audience."
     },
     "MarketingInstitucional": {
-      "titulo": "Institutional Marketing",
-      "descripcion1": "Comprehensive promotional campaigns and tactical marketing.",
-      "descripcion2": "Seminars, congresses, inaugurations, and press conferences.",
-      "descripcion3": "Product launches.",
-      "descripcion4": "Full creation and production of events.",
-      "descripcion5": "Institutional videos."
+      "titulo": "Marketing Institucional",
+      "descripcion1": "Design of institutional and digital marketing campaigns.",
+      "descripcion2": "Support and on-site assistance for clients at conferences, product launches, and inaugurations.",
+      "descripcion3": "Development of briefs for institutional materials."
     },
     "AsuntosPublicos": {
       "titulo": "Public Affairs",
-      "descripcion1": "Monitoring and early warning of sensitive issues.",
-      "descripcion2": "Parliamentary monitoring.",
-      "descripcion3": "Risk detection.",
-      "descripcion4": "On-demand reports.",
-      "descripcion5": "Mapping of areas of interest.",
-      "descripcion6": "Corporate and executive positioning.",
-      "descripcion7": "Relationship building."
+      "descripcion1": "Identification and development of agendas with key stakeholders.",
+      "descripcion2": "Monitoring and early warning of sensitive and regulatory issues.",
+      "descripcion3": "Preparation of on-demand reports.",
+      "descripcion4": "Mapping of key areas of interest.",
+      "descripcion5": "Development of effective stakeholder engagement."
     },
     "EstrategiasDigitales": {
       "titulo": "Digital Strategies",

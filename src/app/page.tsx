@@ -10,6 +10,7 @@ import Parentesis from "../components/Parentesis";
 import Trabajos from "../components/Trabajos";
 import Rubros from "../components/Rubros";
 import ImpulsamosTuCom from "../components/ImpulsamosTuCom";
+import ParentesisHome from "@/components/ParentesisHome";
 
 export default function page() {
   const { t } = useTranslation();
@@ -18,7 +19,7 @@ export default function page() {
     <div className="w-full mx-auto font-fira gap-12 flex flex-col">
       <Header />
       <Home />
-      <Parentesis />
+      <ParentesisHome />
       <Trabajos id="trabajos" />
       <BarraDatos />
       <Services id="servicios" />

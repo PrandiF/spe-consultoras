@@ -78,7 +78,7 @@ function BarraDatos() {
           data-aos-duration="1000"
           data-aos-delay="400"
         >
-          {t("valores.estadisticas.eventos")}
+          {t("valores.estadisticas.activaciones")}
         </p>
       </div>
     </div>

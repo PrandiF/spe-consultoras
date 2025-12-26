@@ -41,6 +41,11 @@
       }
     ]
   },
+
+  "parentesisHome": {
+    "text1": "Acompañamos a personas, empresas, instituciones y organizaciones en la creación de estrategias para mejorar el posicionamiento frente a sus stakeholders; consolidando su imagen positiva y minimizando riesgos."
+  },
+
   "trabajos": {
     "titulo1": "Nuestros",
     "titulo2": "Trabajos",
@@ -141,10 +146,10 @@
       "descripcion": " con la estrategia definida para cada proyecto"
     },
     "estadisticas": {
-      "años": "años en el rubro",
+      "años": "años generando aportes con éxito",
       "profesionales": "profesionales",
-      "eventos": "eventos producidos",
-      "clientes": "grandes clientes"
+      "clientes": "clientes nacionales y globales",
+      "activaciones": "activaciones"
     }
   },
 
@@ -153,27 +158,27 @@
     "titulo2": "Servicios",
     "ComunicacionEstrategica": {
       "titulo": "Comunicación Estratégica",
-      "descripcion1": "Establecimiento de conexiones sólidas y transparentes con profesionales de la prensa y medios de comunicación",
-      "descripcion2": "Gestión eficiente de situaciones de crisis",
-      "descripcion3": "Media Training"
+      "descripcion1": "Identificación de stakeholders clave.",
+      "descripcion2": "Articulación de vínculos sólidos, profesionales y transparentes con periodistas, medios de comunicación, líderes de opinión y referentes de nuevos medios.",
+      "descripcion3": "Detección de riesgos reputacionales.",
+      "descripcion4": "Gestión eficiente de situaciones de crisis.",
+      "descripcion5": "Media Training y coaching.",
+      "descripcion6": "Desarrollo de narrativas ajustadas a cada público objetivo."
     },
     "MarketingInstitucional": {
       "titulo": "Marketing Institucional",
-      "descripcion1": "Campañas integrales de promoción y marketing táctico",
-      "descripcion2": "Seminarios, congresos, inauguraciones y conferencias de prensa",
-      "descripcion3": "Lanzamientos",
-      "descripcion4": "Creación y producción integral de eventos",
-      "descripcion5": "Videos institucionales"
+      "descripcion1": "Diseño de campañas de marketing institucional y digital.",
+      "descripcion2": "Acompañamiento y asistencia junto a nuestros clientes en congresos, lanzamientos e inauguraciones.",
+      "descripcion3": "Elaboración de briefs de materiales institucionales."
     },
+
     "AsuntosPublicos": {
       "titulo": "Asuntos Públicos",
-      "descripcion1": "Seguimiento y alerta temprana de temas sensibles",
-      "descripcion2": "Monitoreo parlamentario",
-      "descripcion3": "Detección de riesgos",
-      "descripcion4": "Reportes on demand",
-      "descripcion5": "Mapeos de espacios de interés",
-      "descripcion6": "Posicionamiento corporativo y de directivos",
-      "descripcion7": "Relacionamiento"
+      "descripcion1": "Identificación y desarrollo de agenda con stakeholders clave.",
+      "descripcion2": "Seguimiento y alerta temprana de temas sensibles y regulatorios.",
+      "descripcion3": "Elaboración de reportes on demand.",
+      "descripcion4": "Mapeo de espacios de interés.",
+      "descripcion5": "Desarrollo de relacionamiento efectivo."
     },
     "EstrategiasDigitales": {
       "titulo": "Estrategias Digitales",
