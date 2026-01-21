@@ -60,8 +60,6 @@ function Services({ id }: valoresProps) {
           descripcion1={t("servicios.MarketingInstitucional.descripcion1")}
           descripcion2={t("servicios.MarketingInstitucional.descripcion2")}
           descripcion3={t("servicios.MarketingInstitucional.descripcion3")}
-          descripcion4={t("servicios.MarketingInstitucional.descripcion4")}
-          descripcion5={t("servicios.MarketingInstitucional.descripcion5")}
           reverse={true}
         />
         <CardServicios
@@ -72,8 +70,6 @@ function Services({ id }: valoresProps) {
           descripcion3={t("servicios.AsuntosPublicos.descripcion3")}
           descripcion4={t("servicios.AsuntosPublicos.descripcion4")}
           descripcion5={t("servicios.AsuntosPublicos.descripcion5")}
-          descripcion6={t("servicios.AsuntosPublicos.descripcion6")}
-          descripcion7={t("servicios.AsuntosPublicos.descripcion7")}
         />
         {showMore && (
           <>
